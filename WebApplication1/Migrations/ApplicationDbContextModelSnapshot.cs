@@ -8,7 +8,7 @@ using WebApplication1.Areas.Identity.Data;
 
 #nullable disable
 
-namespace WebApplication1.Migrations
+namespace ShopMVC2.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot

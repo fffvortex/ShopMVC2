@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "Hash": "8RSnC9o7zsil9uFZfpgd16uQ2EJ2eKpRa6MmxsYmnIg=",
-  "Source": "WebApplication1",
-  "BasePath": "_content/WebApplication1",
+  "Hash": "H92+wQzUf+yEE1oJoWbkb08Sq49HvmXhGpLunwsnoVo=",
+  "Source": "ShopMVC2",
+  "BasePath": "_content/ShopMVC2",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "WebApplication1\\wwwroot",
-      "Source": "WebApplication1",
+      "Name": "ShopMVC2\\wwwroot",
+      "Source": "ShopMVC2",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "Pattern": "**"
     }
   ],
@@ -1277,12 +1277,12 @@
       "OriginalItemSpec": "C:\\Users\\mi162\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebApplication1.styles.css",
-      "SourceId": "WebApplication1",
+      "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ShopMVC2.styles.css",
+      "SourceId": "ShopMVC2",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/WebApplication1",
-      "RelativePath": "WebApplication1#[.{fingerprint}]?.styles.css",
+      "BasePath": "_content/ShopMVC2",
+      "RelativePath": "ShopMVC2#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Primary",
@@ -1291,19 +1291,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "yj6fvmmoe8",
-      "Integrity": "Ejph5OspmnzpK2cukdzRSThxw067hcPq5OuD1ldyKsk=",
+      "Fingerprint": "um1nuv43je",
+      "Integrity": "+t0iVuCB4Qv8DBs+6sQq+Uh/gLrMPnUkLgMFRb0HcuM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebApplication1.styles.css"
+      "OriginalItemSpec": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ShopMVC2.styles.css"
     },
     {
-      "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css",
-      "SourceId": "WebApplication1",
+      "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ShopMVC2.bundle.scp.css",
+      "SourceId": "ShopMVC2",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/WebApplication1",
-      "RelativePath": "WebApplication1#[.{fingerprint}]!.bundle.scp.css",
+      "BasePath": "_content/ShopMVC2",
+      "RelativePath": "ShopMVC2#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Primary",
@@ -1312,18 +1312,18 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "yj6fvmmoe8",
-      "Integrity": "Ejph5OspmnzpK2cukdzRSThxw067hcPq5OuD1ldyKsk=",
+      "Fingerprint": "um1nuv43je",
+      "Integrity": "+t0iVuCB4Qv8DBs+6sQq+Uh/gLrMPnUkLgMFRb0HcuM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ShopMVC2.bundle.scp.css"
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\css\\site.css",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1333,18 +1333,18 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c2tiyv64ts",
-      "Integrity": "pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=",
+      "Fingerprint": "zxakxjmp81",
+      "Integrity": "ZwEyDWs57gV5uDW/ksZ01GxjGIUE78OdOIqThGPnR0o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\favicon.ico",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1361,11 +1361,32 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\js\\site.js",
-      "SourceId": "WebApplication1",
+      "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\js\\layout.js",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
+      "RelativePath": "js/layout#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cxztmwoqqo",
+      "Integrity": "4E4cCDOnYxCV9LL4MDOUacWqMWoPvNHEo4cQruverK8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\layout.js"
+    },
+    {
+      "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\js\\site.js",
+      "SourceId": "ShopMVC2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1382,32 +1403,11 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\js\\switchTheme.js",
-      "SourceId": "WebApplication1",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
-      "RelativePath": "js/switchTheme#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "4dp1scb0oi",
-      "Integrity": "qDKUCj8gu1wuPzeJFEU1WNR4IpuMRXAUin0meYFZR3E=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\switchTheme.js"
-    },
-    {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1425,10 +1425,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1446,10 +1446,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1467,10 +1467,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1488,10 +1488,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1509,10 +1509,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1530,10 +1530,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1551,10 +1551,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1572,10 +1572,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1593,10 +1593,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1614,10 +1614,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1635,10 +1635,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1656,10 +1656,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1677,10 +1677,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1698,10 +1698,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1719,10 +1719,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1740,10 +1740,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1761,10 +1761,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1782,10 +1782,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1803,10 +1803,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1824,10 +1824,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1845,10 +1845,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1866,10 +1866,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1887,10 +1887,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1908,10 +1908,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1929,10 +1929,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1950,10 +1950,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1971,10 +1971,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1992,10 +1992,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2013,10 +2013,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2034,10 +2034,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2055,10 +2055,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2076,10 +2076,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2097,10 +2097,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2118,10 +2118,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2139,10 +2139,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2160,10 +2160,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2181,10 +2181,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2202,10 +2202,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2223,10 +2223,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2244,10 +2244,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2265,10 +2265,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2286,10 +2286,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2307,10 +2307,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2328,10 +2328,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2349,10 +2349,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2370,10 +2370,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2391,10 +2391,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2412,10 +2412,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2433,10 +2433,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2454,10 +2454,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2475,10 +2475,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2496,10 +2496,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2517,10 +2517,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2538,10 +2538,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2559,10 +2559,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2580,10 +2580,10 @@
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "SourceId": "WebApplication1",
+      "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
+      "BasePath": "_content/ShopMVC2",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2602,51 +2602,6 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.c2tiyv64ts.css",
-      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "362"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 16:02:58 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -2657,7 +2612,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "398"
         },
         {
           "Name": "Content-Type",
@@ -2665,11 +2620,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"ZwEyDWs57gV5uDW/ksZ01GxjGIUE78OdOIqThGPnR0o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 16:02:58 GMT"
+          "Value": "Wed, 25 Dec 2024 09:09:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2679,7 +2634,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-ZwEyDWs57gV5uDW/ksZ01GxjGIUE78OdOIqThGPnR0o="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.zxakxjmp81.css",
+      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "398"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZwEyDWs57gV5uDW/ksZ01GxjGIUE78OdOIqThGPnR0o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 09:09:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zxakxjmp81"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZwEyDWs57gV5uDW/ksZ01GxjGIUE78OdOIqThGPnR0o="
         }
       ]
     },
@@ -4986,6 +4986,88 @@
       ]
     },
     {
+      "Route": "js/layout.cxztmwoqqo.js",
+      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\js\\layout.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "862"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4E4cCDOnYxCV9LL4MDOUacWqMWoPvNHEo4cQruverK8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 10:19:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cxztmwoqqo"
+        },
+        {
+          "Name": "label",
+          "Value": "js/layout.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4E4cCDOnYxCV9LL4MDOUacWqMWoPvNHEo4cQruverK8="
+        }
+      ]
+    },
+    {
+      "Route": "js/layout.js",
+      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\js\\layout.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "862"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4E4cCDOnYxCV9LL4MDOUacWqMWoPvNHEo4cQruverK8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 10:19:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4E4cCDOnYxCV9LL4MDOUacWqMWoPvNHEo4cQruverK8="
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
       "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\js\\site.js",
       "Selectors": [],
@@ -5064,88 +5146,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
-        }
-      ]
-    },
-    {
-      "Route": "js/switchTheme.4dp1scb0oi.js",
-      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\js\\switchTheme.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "534"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qDKUCj8gu1wuPzeJFEU1WNR4IpuMRXAUin0meYFZR3E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 13:47:40 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "4dp1scb0oi"
-        },
-        {
-          "Name": "label",
-          "Value": "js/switchTheme.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-qDKUCj8gu1wuPzeJFEU1WNR4IpuMRXAUin0meYFZR3E="
-        }
-      ]
-    },
-    {
-      "Route": "js/switchTheme.js",
-      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\js\\switchTheme.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "534"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qDKUCj8gu1wuPzeJFEU1WNR4IpuMRXAUin0meYFZR3E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 13:47:40 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-qDKUCj8gu1wuPzeJFEU1WNR4IpuMRXAUin0meYFZR3E="
         }
       ]
     },
@@ -9824,8 +9824,8 @@
       ]
     },
     {
-      "Route": "WebApplication1.bundle.scp.css",
-      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css",
+      "Route": "ShopMVC2.bundle.scp.css",
+      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ShopMVC2.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9834,7 +9834,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1133"
+          "Value": "1126"
         },
         {
           "Name": "Content-Type",
@@ -9842,11 +9842,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ejph5OspmnzpK2cukdzRSThxw067hcPq5OuD1ldyKsk=\""
+          "Value": "\"+t0iVuCB4Qv8DBs+6sQq+Uh/gLrMPnUkLgMFRb0HcuM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 16:04:23 GMT"
+          "Value": "Tue, 24 Dec 2024 17:17:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9856,13 +9856,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Ejph5OspmnzpK2cukdzRSThxw067hcPq5OuD1ldyKsk="
+          "Value": "sha256-+t0iVuCB4Qv8DBs+6sQq+Uh/gLrMPnUkLgMFRb0HcuM="
         }
       ]
     },
     {
-      "Route": "WebApplication1.styles.css",
-      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebApplication1.styles.css",
+      "Route": "ShopMVC2.styles.css",
+      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ShopMVC2.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9871,7 +9871,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1133"
+          "Value": "1126"
         },
         {
           "Name": "Content-Type",
@@ -9879,11 +9879,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ejph5OspmnzpK2cukdzRSThxw067hcPq5OuD1ldyKsk=\""
+          "Value": "\"+t0iVuCB4Qv8DBs+6sQq+Uh/gLrMPnUkLgMFRb0HcuM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 16:04:23 GMT"
+          "Value": "Tue, 24 Dec 2024 17:17:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9893,13 +9893,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Ejph5OspmnzpK2cukdzRSThxw067hcPq5OuD1ldyKsk="
+          "Value": "sha256-+t0iVuCB4Qv8DBs+6sQq+Uh/gLrMPnUkLgMFRb0HcuM="
         }
       ]
     },
     {
-      "Route": "WebApplication1.yj6fvmmoe8.bundle.scp.css",
-      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css",
+      "Route": "ShopMVC2.um1nuv43je.bundle.scp.css",
+      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ShopMVC2.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9908,7 +9908,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1133"
+          "Value": "1126"
         },
         {
           "Name": "Content-Type",
@@ -9916,11 +9916,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ejph5OspmnzpK2cukdzRSThxw067hcPq5OuD1ldyKsk=\""
+          "Value": "\"+t0iVuCB4Qv8DBs+6sQq+Uh/gLrMPnUkLgMFRb0HcuM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 16:04:23 GMT"
+          "Value": "Tue, 24 Dec 2024 17:17:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9930,21 +9930,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "yj6fvmmoe8"
+          "Value": "um1nuv43je"
         },
         {
           "Name": "label",
-          "Value": "WebApplication1.bundle.scp.css"
+          "Value": "ShopMVC2.bundle.scp.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Ejph5OspmnzpK2cukdzRSThxw067hcPq5OuD1ldyKsk="
+          "Value": "sha256-+t0iVuCB4Qv8DBs+6sQq+Uh/gLrMPnUkLgMFRb0HcuM="
         }
       ]
     },
     {
-      "Route": "WebApplication1.yj6fvmmoe8.styles.css",
-      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebApplication1.styles.css",
+      "Route": "ShopMVC2.um1nuv43je.styles.css",
+      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ShopMVC2.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9953,7 +9953,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1133"
+          "Value": "1126"
         },
         {
           "Name": "Content-Type",
@@ -9961,11 +9961,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ejph5OspmnzpK2cukdzRSThxw067hcPq5OuD1ldyKsk=\""
+          "Value": "\"+t0iVuCB4Qv8DBs+6sQq+Uh/gLrMPnUkLgMFRb0HcuM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 16:04:23 GMT"
+          "Value": "Tue, 24 Dec 2024 17:17:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9975,15 +9975,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "yj6fvmmoe8"
+          "Value": "um1nuv43je"
         },
         {
           "Name": "label",
-          "Value": "WebApplication1.styles.css"
+          "Value": "ShopMVC2.styles.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Ejph5OspmnzpK2cukdzRSThxw067hcPq5OuD1ldyKsk="
+          "Value": "sha256-+t0iVuCB4Qv8DBs+6sQq+Uh/gLrMPnUkLgMFRb0HcuM="
         }
       ]
     }

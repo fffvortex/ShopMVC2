@@ -11,14 +11,7 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
-[assembly: System.Reflection.AssemblyCompanyAttribute("ShopMVC2")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc801ecd98bacf51b8fddfd2637abd741537aec1")]
-[assembly: System.Reflection.AssemblyProductAttribute("ShopMVC2")]
-[assembly: System.Reflection.AssemblyTitleAttribute("ShopMVC2")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPartAttribute("Microsoft.AspNetCore.Identity.UI")]
 
 // Создано классом WriteCodeFragment MSBuild.
 

@@ -1,5 +1,9 @@
+using System.Collections.Generic;
 using System.Diagnostics;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using WebApplication1.Areas.Identity.Data;
 using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
@@ -7,15 +11,20 @@ namespace WebApplication1.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly UserManager<ApplicationUser> _userManager;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, UserManager<ApplicationUser> userManager)
         {
             _logger = logger;
+            _userManager = userManager;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            ViewData["UserName"] = _userManager.GetUserName(this.User);
+            var userId =  _userManager.GetUserId(this.User);
+            var user = await _userManager.Users.FirstOrDefaultAsync(u => u.Id == userId);
+            return View(user);
         }
 
         public IActionResult Privacy()

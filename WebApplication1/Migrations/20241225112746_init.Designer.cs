@@ -9,11 +9,11 @@ using WebApplication1.Areas.Identity.Data;
 
 #nullable disable
 
-namespace WebApplication1.Migrations
+namespace ShopMVC2.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241224163511_CreateIdentitySchema")]
-    partial class CreateIdentitySchema
+    [Migration("20241225112746_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
