@@ -3,14 +3,6 @@
 @{
     ViewData["Title"] = "Home Page";
 }
-<nav style="border-radius:13px;" class="navbar bg-body-tertiary">
-    <div class="container-fluid">
-        <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-    </div>
-</nav>
 <div class="text-center mt-3">
     @* <h1 class="display-4">Welcome @ViewData["UserName"]</h1> *@
     @if (Model is not null)

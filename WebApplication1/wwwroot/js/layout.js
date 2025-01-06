@@ -1,11 +1,6 @@
-let navLinks = document.querySelectorAll('.nav-link')
-let windowPathName = window.location.pathname
-
-navLinks.forEach(nav => {
-    let navPath = new URL(nav.href).pathname
-    console.log(navPath)
-
-    if ((windowPathName === navPath) || (windowPathName === '/Home/Index') && navPath === '/' ) {
-        nav.classList.add('active')
+document.querySelectorAll(".nav-link").forEach((link) => {
+    if (link.href === window.location.href) {
+        link.classList.add("active");
+        link.setAttribute("aria-current", "page");
     }
-})
+});
