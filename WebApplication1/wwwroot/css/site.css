@@ -1,20 +1,20 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
@@ -22,44 +22,65 @@ body {
     font-family: "Kanit", serif;
 }
 
-.checkbox {
-    opacity: 0;
-    position: absolute;
+#checkbox i {
+    padding:0.4rem;
+}
+    #checkbox i:hover{
+        opacity:0.7;
+    }
+
+    #checkbox:hover {
+        cursor: pointer;
+    }
+
+    .carousel-control-next-icon {
+        background-color: #6d6d6d;
+        border-radius: 6px;
+        width: 4rem;
+        height: 1.7rem;
+        opacity: 0.6;
+    }
+
+.carousel-control-prev-icon {
+    background-color: #6d6d6d;
+    border-radius: 6px;
+    width: 4rem;
+    height: 1.7rem;
+    opacity: 0.6;
 }
 
-.checkbox-label {
-    background-color: #111;
-    width: 50px;
-    height: 26px;
-    border-radius: 54px;
-    position: relative;
-    padding: 5px;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.nav-link {
+    color: #1c703f;
 }
 
-.fa-moon {
-    color: #258cfb;
+    .nav-link:hover {
+        color: #23b746;
+    }
+
+.btn-link {
+    color: #1c703f;
 }
 
-.fa-sun {
-    color: #f39c12;
+    .btn-link:hover {
+        color: #23b746;
+    }
+
+a {
+    color: #1c703f;
 }
 
-.checkbox-label .ball {
-    background-color: #fff;
-    width: 22px;
-    height: 22px;
-    position: absolute;
-    left: 2px;
-    top: 2px;
-    border-radius: 50%;
-    transition: transform 0.2s linear;
-}
+    a:hover {
+        color: #23b746;
+    }
 
-.checkbox:checked + .checkbox-label .ball {
-    transform: translateX(24px);
+.form-check-input:checked {
+    background-color: #23b746;
+    border-color: #1c703f;
 }
-
+.logo {
+    width: 2.3rem;
+    margin-inline: 1rem;
+}
+    .logo:hover {
+        filter: drop-shadow(0px 0px 1px #19c279);
+    }

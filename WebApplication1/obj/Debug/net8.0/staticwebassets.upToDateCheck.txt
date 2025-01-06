@@ -1,7 +1,12 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\img\icons8-flower-64.png
+wwwroot\img\slide1.jpg
+wwwroot\img\slide2.jpg
+wwwroot\img\slide3.jpg
 wwwroot\js\layout.js
 wwwroot\js\site.js
+wwwroot\js\theme.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
