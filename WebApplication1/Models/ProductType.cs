@@ -3,15 +3,15 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ShopMVC2.Models
 {
-    [Table("Type")]
-    public class Type
+    [Table("ProductType")]
+    public class ProductType
     {
-        public int TypeId { get; set; }
+        public int Id { get; set; }
 
         [Required]
-        [MaxLength(50)]
+        [StringLength(50)]
         public string TypeTitle { get; set; }
 
-        public List<Weapon> Weapons { get; set; }
+        public List<Product> Products { get; set; }
     }
 }

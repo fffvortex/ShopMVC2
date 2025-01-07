@@ -82,7 +82,7 @@ a {
     margin-inline: 1rem;
 }
     .logo:hover {
-        filter: drop-shadow(0px 0px 1px #19c279);
+        filter: drop-shadow(0px 0px 2px #19c279);
     }
 .search-logo{
     display: none;
@@ -90,7 +90,7 @@ a {
     cursor: pointer;
 }
 @media(max-width:700px) {
-    .navbar.bg-body-tertiary{
+    .search-panel{
         width:0rem;
         display: none;
     }
