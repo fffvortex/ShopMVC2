@@ -8,7 +8,7 @@ namespace ShopMVC2.Areas.Identity.Data
     {
         public static async Task SeedDefaultData(IServiceProvider service)
         {
-            var userManager = service.GetService<UserManager<ApplicationUser>>(); //identityuser?
+            var userManager = service.GetService<UserManager<ApplicationUser>>();
             var roleManager = service.GetService<RoleManager<IdentityRole>>();
 
             await roleManager.CreateAsync(new IdentityRole(Roles.Admin.ToString()));

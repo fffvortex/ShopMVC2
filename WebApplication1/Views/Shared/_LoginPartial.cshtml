@@ -22,8 +22,13 @@
                     </a>
                 }
             </div>
+            <div class="form-check-inline">
+                <a href="#" class="nav-link">
+                    <i style="color: #1e8a42;margin-inline:0.3rem;" class="fa-solid fa-cart-shopping"><span style="position:absolute;margin-inline:0.1rem;" class="badge rounded-pill text-bg-warning">0</span></i>
+                </a>
+            </div>
             <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-                <button id="logout" type="submit" class="nav-link"><i style="color: #1e8a42;margin-inline:0.4rem;" class="fa-solid fa-right-from-bracket"></i></button>
+                <button id="logout" type="submit" class="nav-link"><i style="color: #1e8a42;margin-right:0.2rem;margin-left: 0.5rem;" class="fa-solid fa-right-from-bracket"></i></button>
             </form>
             <div class="nav-item search-logo">
                 <a class="nav-link" asp-controller="Home" asp-action="Products">

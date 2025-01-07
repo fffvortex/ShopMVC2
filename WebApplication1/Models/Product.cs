@@ -8,12 +8,12 @@ namespace ShopMVC2.Models
     {
         public int Id { get; set; }
 
-        [Required, MaxLength(50)]
+        [Required, MaxLength(45)]
         public string? ProductTitle { get; set; }
 
         public double Price { get; set; }
 
-        [MaxLength(500)]
+        [MaxLength(2000)]
         public string? Description { get; set; }
 
         public string? ProductImage { get; set; }
@@ -26,5 +26,8 @@ namespace ShopMVC2.Models
         public List<OrderDetail> OrderDetails { get; set; }
 
         public List<CartDetail> CartDetails { get; set; }
+
+        [NotMapped]
+        public string ProductTypeTitle { get; set; }
     }
 }

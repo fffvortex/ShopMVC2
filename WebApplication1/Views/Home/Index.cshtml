@@ -1,33 +1,30 @@
-﻿@using WebApplication1.Areas.Identity.Data
-@model ApplicationUser
+﻿@model IEnumerable<Product>
+@using ShopMVC2.Models
+@using WebApplication1.Areas.Identity.Data
+
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "";
 }
-<div class="text-center mt-3">
-    @* <h1 class="display-4">Welcome @ViewData["UserName"]</h1> *@
-    @if (Model is not null)
+
+<div class=" mt-4 w-100 d-flex flex-wrap justify-content-center">
+    @foreach (var product in Model)
     {
-        <h2>Welcome @Model.FirstName @Model.LastName !</h2>
+        <div class="card mx-2 mb-4" style="width: 19rem;">
+            @if (@product.ProductImage == null)
+            {
+                <img src="/img/No_Picture.jpg" class="card-img-top" alt="">
+            }
+            else
+            {
+                <img src="/img/@product.ProductImage" class="card-img-top" alt="">
+            }
+            <div class="card-body">
+                <h5 class="card-title">@product.ProductTitle</h5>
+                <p class="card-text">@product.ProductTypeTitle </p>
+                <p class="card-text">@product.Price</p>
+                <a href="#" class="btn btn-success align-content-center">Add to cart</a>
+            </div>
+        </div>
     }
 </div>
-<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="3000">
-            <img src="/img/slide1.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item" data-bs-interval="2000">
-            <img src="/img/slide2.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="/img/slide3.jpg" class="d-block w-100" alt="...">
-        </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
+

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "onOMW+nXc/EjOqhnogJZ4poFXH77T2ptm4V6Pj1MUf8=",
+  "Hash": "u529VTX3qTb2tfCcA4lrGekcNG5An0cBlFFUa9o+bz0=",
   "Source": "ShopMVC2",
   "BasePath": "_content/ShopMVC2",
   "Mode": "Default",
@@ -1333,8 +1333,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dfpo0q5gkz",
-      "Integrity": "R3GaEQ0Sx6PaV6cJPnJwf6Q7NWa2dmQLf+fmpfBnPlw=",
+      "Fingerprint": "qk88o6x34i",
+      "Integrity": "ap2EWfZkBypQLPPj1S/xqU2Psd4DH92Yny29+4F/9GM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1361,6 +1361,48 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Bertie.webp",
+      "SourceId": "ShopMVC2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/ShopMVC2",
+      "RelativePath": "img/Bertie#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b00gpziow6",
+      "Integrity": "9VbSYDGtarKYcWCUpRD9hjKZWJ5nlgvj21SOK4/RR4U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Bertie.webp"
+    },
+    {
+      "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Felicity.webp",
+      "SourceId": "ShopMVC2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/ShopMVC2",
+      "RelativePath": "img/Felicity#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7yjr1uqz6l",
+      "Integrity": "v9ZwKmFqww4Rrp1YMy4bbPsgV/YF2v8TZQL9n0phefY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Felicity.webp"
+    },
+    {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\icons8-flower-64.png",
       "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
@@ -1380,6 +1422,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\icons8-flower-64.png"
+    },
+    {
+      "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\No_Picture.jpg",
+      "SourceId": "ShopMVC2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/ShopMVC2",
+      "RelativePath": "img/No_Picture#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oyg75nersk",
+      "Integrity": "oNLJhHLBkrxaYfuulT6eRDlPqaGkkpIWUQixw8c8QWg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\No_Picture.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Pippa.webp",
+      "SourceId": "ShopMVC2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/ShopMVC2",
+      "RelativePath": "img/Pippa#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i2slaj5686",
+      "Integrity": "Wsea52N716Q8esxdlj8PPy9NVGH99TYJGk4TA4GgX4s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Pippa.webp"
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\slide1.jpg",
@@ -2717,7 +2801,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1647"
+          "Value": "2154"
         },
         {
           "Name": "Content-Type",
@@ -2725,11 +2809,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"R3GaEQ0Sx6PaV6cJPnJwf6Q7NWa2dmQLf+fmpfBnPlw=\""
+          "Value": "\"ap2EWfZkBypQLPPj1S/xqU2Psd4DH92Yny29+4F/9GM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 07 Jan 2025 08:19:06 GMT"
+          "Value": "Tue, 07 Jan 2025 14:16:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2739,12 +2823,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-R3GaEQ0Sx6PaV6cJPnJwf6Q7NWa2dmQLf+fmpfBnPlw="
+          "Value": "sha256-ap2EWfZkBypQLPPj1S/xqU2Psd4DH92Yny29+4F/9GM="
         }
       ]
     },
     {
-      "Route": "css/site.dfpo0q5gkz.css",
+      "Route": "css/site.qk88o6x34i.css",
       "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2754,7 +2838,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1647"
+          "Value": "2154"
         },
         {
           "Name": "Content-Type",
@@ -2762,11 +2846,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"R3GaEQ0Sx6PaV6cJPnJwf6Q7NWa2dmQLf+fmpfBnPlw=\""
+          "Value": "\"ap2EWfZkBypQLPPj1S/xqU2Psd4DH92Yny29+4F/9GM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 07 Jan 2025 08:19:06 GMT"
+          "Value": "Tue, 07 Jan 2025 14:16:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2776,7 +2860,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dfpo0q5gkz"
+          "Value": "qk88o6x34i"
         },
         {
           "Name": "label",
@@ -2784,7 +2868,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-R3GaEQ0Sx6PaV6cJPnJwf6Q7NWa2dmQLf+fmpfBnPlw="
+          "Value": "sha256-ap2EWfZkBypQLPPj1S/xqU2Psd4DH92Yny29+4F/9GM="
         }
       ]
     },
@@ -5091,6 +5175,170 @@
       ]
     },
     {
+      "Route": "img/Bertie.b00gpziow6.webp",
+      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Bertie.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9VbSYDGtarKYcWCUpRD9hjKZWJ5nlgvj21SOK4/RR4U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Jan 2025 14:43:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b00gpziow6"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Bertie.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9VbSYDGtarKYcWCUpRD9hjKZWJ5nlgvj21SOK4/RR4U="
+        }
+      ]
+    },
+    {
+      "Route": "img/Bertie.webp",
+      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Bertie.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9VbSYDGtarKYcWCUpRD9hjKZWJ5nlgvj21SOK4/RR4U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Jan 2025 14:43:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9VbSYDGtarKYcWCUpRD9hjKZWJ5nlgvj21SOK4/RR4U="
+        }
+      ]
+    },
+    {
+      "Route": "img/Felicity.7yjr1uqz6l.webp",
+      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Felicity.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79896"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v9ZwKmFqww4Rrp1YMy4bbPsgV/YF2v8TZQL9n0phefY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Jan 2025 14:41:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7yjr1uqz6l"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Felicity.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-v9ZwKmFqww4Rrp1YMy4bbPsgV/YF2v8TZQL9n0phefY="
+        }
+      ]
+    },
+    {
+      "Route": "img/Felicity.webp",
+      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Felicity.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79896"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v9ZwKmFqww4Rrp1YMy4bbPsgV/YF2v8TZQL9n0phefY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Jan 2025 14:41:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-v9ZwKmFqww4Rrp1YMy4bbPsgV/YF2v8TZQL9n0phefY="
+        }
+      ]
+    },
+    {
       "Route": "img/icons8-flower-64.png",
       "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\icons8-flower-64.png",
       "Selectors": [],
@@ -5169,6 +5417,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-chQC3853ha7BQ85jeUyxRI591oR2BFxrESBSHndGpwM="
+        }
+      ]
+    },
+    {
+      "Route": "img/No_Picture.jpg",
+      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\No_Picture.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12837"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oNLJhHLBkrxaYfuulT6eRDlPqaGkkpIWUQixw8c8QWg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Jan 2025 14:12:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oNLJhHLBkrxaYfuulT6eRDlPqaGkkpIWUQixw8c8QWg="
+        }
+      ]
+    },
+    {
+      "Route": "img/No_Picture.oyg75nersk.jpg",
+      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\No_Picture.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12837"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oNLJhHLBkrxaYfuulT6eRDlPqaGkkpIWUQixw8c8QWg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Jan 2025 14:12:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oyg75nersk"
+        },
+        {
+          "Name": "label",
+          "Value": "img/No_Picture.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oNLJhHLBkrxaYfuulT6eRDlPqaGkkpIWUQixw8c8QWg="
+        }
+      ]
+    },
+    {
+      "Route": "img/Pippa.i2slaj5686.webp",
+      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Pippa.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "133304"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wsea52N716Q8esxdlj8PPy9NVGH99TYJGk4TA4GgX4s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Jan 2025 14:30:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i2slaj5686"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Pippa.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wsea52N716Q8esxdlj8PPy9NVGH99TYJGk4TA4GgX4s="
+        }
+      ]
+    },
+    {
+      "Route": "img/Pippa.webp",
+      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Pippa.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "133304"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wsea52N716Q8esxdlj8PPy9NVGH99TYJGk4TA4GgX4s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Jan 2025 14:30:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wsea52N716Q8esxdlj8PPy9NVGH99TYJGk4TA4GgX4s="
         }
       ]
     },

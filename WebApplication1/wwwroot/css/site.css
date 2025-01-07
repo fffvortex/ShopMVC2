@@ -23,23 +23,24 @@ body {
 }
 
 #checkbox i {
-    padding:0.4rem;
+    padding: 0.4rem;
 }
-    #checkbox i:hover{
-        opacity:0.7;
+
+    #checkbox i:hover {
+        opacity: 0.7;
     }
 
-    #checkbox:hover {
-        cursor: pointer;
-    }
+#checkbox:hover {
+    cursor: pointer;
+}
 
-    .carousel-control-next-icon {
-        background-color: #6d6d6d;
-        border-radius: 6px;
-        width: 4rem;
-        height: 1.7rem;
-        opacity: 0.6;
-    }
+.carousel-control-next-icon {
+    background-color: #6d6d6d;
+    border-radius: 6px;
+    width: 4rem;
+    height: 1.7rem;
+    opacity: 0.6;
+}
 
 .carousel-control-prev-icon {
     background-color: #6d6d6d;
@@ -77,24 +78,64 @@ a {
     background-color: #23b746;
     border-color: #1c703f;
 }
+
 .logo {
     width: 2.3rem;
     margin-inline: 1rem;
 }
+
     .logo:hover {
         filter: drop-shadow(0px 0px 2px #19c279);
     }
-.search-logo{
+
+.search-logo {
     display: none;
     width: 0;
     cursor: pointer;
 }
+
+.fa-cart-shopping {
+    cursor: pointer;
+}
+
+.form-select {
+    border: 2px #1c703f solid;
+}
+
+    .form-select:focus {
+        border: 2px #23b746 solid;
+        box-shadow: none;
+    }
+
+.form-control {
+    border: 2px #1c703f solid;
+}
+
+    .form-control:focus {
+        border: 2px #23b746 solid;
+        box-shadow: none;
+    }
+
+.btn-success:focus{
+    box-shadow: none;
+    outline: none;
+}
+.btn-success:active {
+    box-shadow: none;
+    outline: none;
+}
+select{
+    cursor: pointer;
+}
+
+
 @media(max-width:700px) {
-    .search-panel{
-        width:0rem;
+    .search-panel {
+        width: 0rem;
         display: none;
     }
-    .search-logo{
+
+    .search-logo {
         display: block;
         width: auto;
     }

@@ -10,20 +10,18 @@ namespace WebApplication1.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly IHomeRepository _homeRepository;
 
-        public HomeController(ILogger<HomeController> logger, UserManager<ApplicationUser> userManager)
+        public HomeController(ILogger<HomeController> logger, IHomeRepository homeRepository)
         {
             _logger = logger;
-            _userManager = userManager;
+            _homeRepository = homeRepository;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string search="",int productTypeId = 0)
         {
-            ViewData["UserName"] = _userManager.GetUserName(this.User);
-            var userId =  _userManager.GetUserId(this.User);
-            var user = await _userManager.Users.FirstOrDefaultAsync(u => u.Id == userId);
-            return View(user);
+            var products = await _homeRepository.GetProducts(search,productTypeId);
+            return View(products);
         }
 
         public IActionResult Privacy()
