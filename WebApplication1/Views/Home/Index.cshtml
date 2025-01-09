@@ -1,16 +1,16 @@
-﻿@model IEnumerable<Product>
-@using ShopMVC2.Models
+﻿@model ProductDisplayModel
 @using WebApplication1.Areas.Identity.Data
 
 @{
     ViewData["Title"] = "";
 }
 
+<partial name="_SearchPartial" />
 <div class=" mt-4 w-100 d-flex flex-wrap justify-content-center">
-    @foreach (var product in Model)
+    @foreach (var product in Model.Products)
     {
         <div class="card mx-2 mb-4" style="width: 19rem;">
-            @if (@product.ProductImage == null)
+            @if (string.IsNullOrWhiteSpace(@product.ProductImage))
             {
                 <img src="/img/No_Picture.jpg" class="card-img-top" alt="">
             }
@@ -21,8 +21,8 @@
             <div class="card-body">
                 <h5 class="card-title">@product.ProductTitle</h5>
                 <p class="card-text">@product.ProductTypeTitle </p>
-                <p class="card-text">@product.Price</p>
-                <a href="#" class="btn btn-success align-content-center">Add to cart</a>
+                <p class="card-text">@product.Price £</p>
+                    <a href="#" class="btn btn-success align-content-center">Add to cart</a>
             </div>
         </div>
     }

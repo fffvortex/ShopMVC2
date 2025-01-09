@@ -1,0 +1,44 @@
+﻿@model ProductDisplayModel
+
+<div class="container-fluid search-panel">
+    <form asp-action="Index" id="myform" class="d-flex search-form" role="search" method="POST" onload="submitForm()" onsubmit="submitForm()">
+        <a class="price-filter-icon" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            <i class="fa-solid fa-filter-circle-dollar"></i>
+        </a>
+        <input id="search" value="@Model.Search" class="form-control me-2" type="text" name="search" placeholder="Search" aria-label="Search">
+        <select id="productTypeId" name="productTypeId" style="max-width:10rem;margin-inline:0.2rem;" class="form-select" aria-label="Default select example">
+            <option selected>All types</option>
+            @foreach (var type in Model.ProductTypes)
+            {
+                <option onclick="submitForm()" selected="@(type.Id == Model.ProductTypeId)" value=@type.Id>@type.TypeTitle</option>
+            }
+        </select>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Price</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="dropdown mt-3">
+                    <p>from</p>
+                    <div class="input-group">
+                        <span class="input-group-text">£</span>
+                        <input id="minPrice" value="@Model.MinPrice" type="number" name="minPrice" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+                    </div>
+                    <br />
+                    <p>to</p>
+                    <div class="input-group">
+                        <span class="input-group-text">£</span>
+                        <input id="maxPrice" value="@Model.MaxPrice" type="number" name="maxPrice" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+                    </div>
+                    <br />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+<script defer src="~/js/search.js"></script>

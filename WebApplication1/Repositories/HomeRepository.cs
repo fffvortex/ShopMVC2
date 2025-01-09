@@ -9,7 +9,12 @@ namespace ShopMVC2.Repositories
         {
             _context = context;
         }
-        public async Task<IEnumerable<Product>> GetProducts(string search = "", int productTypeId = 0)
+
+        public async Task<IEnumerable<ProductType>> GetProductTypes()
+        {
+            return await _context.ProductTypes.ToListAsync();
+        }
+        public async Task<IEnumerable<Product>> GetProducts(string search = "", int productTypeId = 0, int maxPrice = 0, int minPrice = 0)
         {
             search = search.ToLower().Replace(" ", "");
 
@@ -26,13 +31,21 @@ namespace ShopMVC2.Repositories
                                       ProductTypeId = product.ProductTypeId,
                                       Price = product.Price,
                                       ProductTypeTitle = type.TypeTitle
-                                  }).ToListAsync();
+                                  }).AsNoTracking().ToListAsync();
             if (productTypeId > 0)
             {
                 products = products.Where(p => p.ProductTypeId == productTypeId).ToList();
             }
+            if (maxPrice > 0)
+            {
+                products = products.Where(p => p.Price <= maxPrice).ToList();
+            }
+            if (minPrice > 0)
+            {
+                products = products.Where(p => p.Price >= minPrice).ToList();
+            }
 
-            return products;
+                return products;
         }
     }
 }

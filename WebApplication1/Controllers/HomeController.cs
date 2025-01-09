@@ -1,8 +1,5 @@
 using System.Diagnostics;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using WebApplication1.Areas.Identity.Data;
 using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
@@ -18,10 +15,20 @@ namespace WebApplication1.Controllers
             _homeRepository = homeRepository;
         }
 
-        public async Task<IActionResult> Index(string search="",int productTypeId = 0)
+        public async Task<IActionResult> Index(string search = "", int productTypeId = 0, int maxPrice = 0, int minPrice = 0)
         {
-            var products = await _homeRepository.GetProducts(search,productTypeId);
-            return View(products);
+            IEnumerable<Product> products = await _homeRepository.GetProducts(search, productTypeId, maxPrice, minPrice);
+            IEnumerable<ProductType> types = await _homeRepository.GetProductTypes();
+            ProductDisplayModel productModel = new ProductDisplayModel
+            {
+                Products = products,
+                ProductTypes = types,
+                ProductTypeId = productTypeId,
+                Search = search,
+                MaxPrice = maxPrice,
+                MinPrice = minPrice
+            };
+            return View(productModel);
         }
 
         public IActionResult Privacy()

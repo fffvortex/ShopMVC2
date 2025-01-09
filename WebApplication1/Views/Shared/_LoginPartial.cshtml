@@ -12,27 +12,45 @@
                 @if (User.IsInRole("Admin"))
                 {
                     <a id="manage" class="nav-link" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">
-                        <i class="fa-solid fa-user-tie" style="color: #1e8a42;margin-inline:0.3rem;"></i>
+                        <i class="fa-solid fa-user-tie" style="margin-inline:0.3rem;"></i>
                     </a>
                 }
                 else
                 {
                     <a id="manage" class="nav-link" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">
-                        <i class="fa-solid fa-user" style="color: #1e8a42;margin-inline:0.3rem;"></i>
+                        <i class="fa-solid fa-user" style="margin-inline:0.3rem;"></i>
                     </a>
                 }
             </div>
             <div class="form-check-inline">
                 <a href="#" class="nav-link">
-                    <i style="color: #1e8a42;margin-inline:0.3rem;" class="fa-solid fa-cart-shopping"><span style="position:absolute;margin-inline:0.1rem;" class="badge rounded-pill text-bg-warning">0</span></i>
+                    <i style="margin-inline:0.3rem;" class="fa-solid fa-cart-shopping"><span class="cart-counter">0</span></i>
                 </a>
             </div>
-            <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-                <button id="logout" type="submit" class="nav-link"><i style="color: #1e8a42;margin-right:0.2rem;margin-left: 0.5rem;" class="fa-solid fa-right-from-bracket"></i></button>
-            </form>
+            <i class="fa-solid fa-right-from-bracket nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal" style="padding-inline: 0.7rem;">
+                <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Are you sure you want to log out of your account?
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-success btn-back" data-bs-dismiss="modal">Back</button>
+                                    <button id="logout" class="btn btn-danger btn-logout" type="submit">Logout</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </i>
+            
             <div class="nav-item search-logo">
-                <a class="nav-link" asp-controller="Home" asp-action="Products">
-                    <i style="color: #1e8a42;margin-inline:0.3rem;" class="fa-solid fa-magnifying-glass"></i>
+                <a class="nav-link" asp-controller="Home" asp-action="Index">
+                    <i style="margin-inline:0.3rem;" class="fa-solid fa-magnifying-glass"></i>
                 </a>
             </div>
         </div>
@@ -40,7 +58,7 @@
     else
     {
         <li style="margin-top:0.2rem;" class="nav-item">
-            <a class="nav-link small-nav" id="login" asp-area="Identity" asp-page="/Account/Login"><i style="color: #1e8a42;margin-inline:0.6rem;" class="fa-solid fa-right-to-bracket"></i></a>
+            <a class="nav-link small-nav" id="login" asp-area="Identity" asp-page="/Account/Login"><i style="margin-inline:0.6rem;" class="fa-solid fa-right-to-bracket"></i></a>
         </li>
     }
 </ul>

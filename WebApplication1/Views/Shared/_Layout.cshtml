@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html lang="en" data-bs-theme="dark">
 <head>
     <meta charset="utf-8" />
@@ -17,7 +18,7 @@
             <div class="container-fluid">
                 <div style="display:inline-flex;">
                     <a class="navbar-brand" href="/"><img class="logo" src="/img/icons8-flower-64.png" /></a>
-                    <div id="checkbox" style="margin-top:0.55rem;">
+                    <div id="checkbox" style="margin-top:0.7rem;">
                         <i style="color: #1e8a42;margin-inline:0.2rem;" class="fa-solid fa-circle-half-stroke"></i>
                     </div>
                     <partial name="_LoginPartial" />
@@ -28,19 +29,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                 </div>
-                <div class="container-fluid search-panel">
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <select id="productTypeId" style="max-width:1rem;margin-inline:0.2rem;" class="form-select" aria-label="Default select example">
-                            <option hidden selected></option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                        </select>
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                </div>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <div style="margin-top:0.1rem;" class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul role="navigation" class="navbar-nav nav-underline">
                         <li class="nav-item">
                             <a class="nav-link" href="/Home/Privacy">Privacy</a>
