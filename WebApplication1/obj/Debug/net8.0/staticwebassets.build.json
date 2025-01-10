@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LgedBoW9VlBUzbK49yvomxU0jvAGZq9Co2JcSyJGyew=",
+  "Hash": "T3HYLMhV1cLULMMgYBUzf5nYLGX/aai+QnOosswDKvI=",
   "Source": "ShopMVC2",
   "BasePath": "_content/ShopMVC2",
   "Mode": "Default",
@@ -1333,8 +1333,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "sqdixuyhzy",
-      "Integrity": "FG93fB3BWp0ZhQ370iusmIgR63K8ODbV7CpVzRFgSlw=",
+      "Fingerprint": "8stmcq7v7n",
+      "Integrity": "SKTOhJs/qAkvABMNlNlkE9R3mjOg7/u+wZTGXUPH7Rw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -4261,6 +4261,51 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/site.8stmcq7v7n.css",
+      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2746"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SKTOhJs/qAkvABMNlNlkE9R3mjOg7/u+wZTGXUPH7Rw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Jan 2025 13:29:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8stmcq7v7n"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SKTOhJs/qAkvABMNlNlkE9R3mjOg7/u+wZTGXUPH7Rw="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -4271,7 +4316,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2604"
+          "Value": "2746"
         },
         {
           "Name": "Content-Type",
@@ -4279,11 +4324,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"FG93fB3BWp0ZhQ370iusmIgR63K8ODbV7CpVzRFgSlw=\""
+          "Value": "\"SKTOhJs/qAkvABMNlNlkE9R3mjOg7/u+wZTGXUPH7Rw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 09 Jan 2025 15:39:59 GMT"
+          "Value": "Fri, 10 Jan 2025 13:29:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4293,52 +4338,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-FG93fB3BWp0ZhQ370iusmIgR63K8ODbV7CpVzRFgSlw="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.sqdixuyhzy.css",
-      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2604"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"FG93fB3BWp0ZhQ370iusmIgR63K8ODbV7CpVzRFgSlw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 09 Jan 2025 15:39:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "sqdixuyhzy"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-FG93fB3BWp0ZhQ370iusmIgR63K8ODbV7CpVzRFgSlw="
+          "Value": "sha256-SKTOhJs/qAkvABMNlNlkE9R3mjOg7/u+wZTGXUPH7Rw="
         }
       ]
     },

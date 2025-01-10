@@ -159,6 +159,12 @@ select{
     margin-top: 0.5rem;
     margin-inline: 0.3rem;
 }
-.offcanvas{
+.offcanvas-search{
     max-width: 20rem;
+}
+
+.img-table{
+    width: 8rem;
+    border: 1px solid #6d6d6d;
+    border-radius: 10px;
 }

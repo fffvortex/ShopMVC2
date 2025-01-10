@@ -15,10 +15,11 @@ namespace WebApplication1.Controllers
             _homeRepository = homeRepository;
         }
 
-        public async Task<IActionResult> Index(string search = "", int productTypeId = 0, int maxPrice = 0, int minPrice = 0)
+        public async Task<IActionResult> Index(string search = "", int productTypeId = 0, double maxPrice = 0, double minPrice = 0)
         {
             IEnumerable<Product> products = await _homeRepository.GetProducts(search, productTypeId, maxPrice, minPrice);
             IEnumerable<ProductType> types = await _homeRepository.GetProductTypes();
+            double maxPriceOfAllProducts = await _homeRepository.GetMaxPrice();
             ProductDisplayModel productModel = new ProductDisplayModel
             {
                 Products = products,
@@ -26,7 +27,8 @@ namespace WebApplication1.Controllers
                 ProductTypeId = productTypeId,
                 Search = search,
                 MaxPrice = maxPrice,
-                MinPrice = minPrice
+                MinPrice = minPrice,
+                MaxPriceOfAllProducts=maxPriceOfAllProducts
             };
             return View(productModel);
         }

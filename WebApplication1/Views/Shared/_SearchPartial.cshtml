@@ -15,7 +15,7 @@
         </select>
         <button class="btn btn-outline-success" type="submit">Search</button>
 
-        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas offcanvas-search offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
             <div class="offcanvas-header">
                 <h5 class="offcanvas-title" id="offcanvasExampleLabel">Price</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -25,13 +25,13 @@
                     <p>from</p>
                     <div class="input-group">
                         <span class="input-group-text">£</span>
-                        <input id="minPrice" value="@Model.MinPrice" type="number" name="minPrice" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+                        <input min="0" id="minPrice" value="@Model.MinPrice" type="number" name="minPrice" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
                     </div>
                     <br />
                     <p>to</p>
                     <div class="input-group">
                         <span class="input-group-text">£</span>
-                        <input id="maxPrice" value="@Model.MaxPrice" type="number" name="maxPrice" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+                        <input min="0" max="@Model.MaxPriceOfAllProducts" id="maxPrice" value="@Model.MaxPrice" type="number" name="maxPrice" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
                     </div>
                     <br />
                     <button class="btn btn-outline-success" type="submit">Search</button>

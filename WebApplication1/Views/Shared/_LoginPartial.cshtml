@@ -13,23 +13,25 @@
                 {
                     <a id="manage" class="nav-link" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">
                         <i class="fa-solid fa-user-tie" style="margin-inline:0.3rem;"></i>
+                        <span hidden id="username">@User.Identity?.Name</span>
                     </a>
                 }
                 else
                 {
                     <a id="manage" class="nav-link" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">
                         <i class="fa-solid fa-user" style="margin-inline:0.3rem;"></i>
+                        <span hidden id="username">@User.Identity?.Name</span>
                     </a>
                 }
             </div>
             <div class="form-check-inline">
-                <a href="#" class="nav-link">
-                    <i style="margin-inline:0.3rem;" class="fa-solid fa-cart-shopping"><span class="cart-counter">0</span></i>
+                <a asp-controller="Cart" asp-action="GetUserCart" class="nav-link">
+                    <i style="margin-inline:0.3rem;" class="fa-solid fa-cart-shopping"><span id="cartCount" class="cart-counter">0</span></i>
                 </a>
             </div>
-            <i class="fa-solid fa-right-from-bracket nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal" style="padding-inline: 0.7rem;">
+            <i class="fa-solid fa-right-from-bracket nav-link" data-bs-toggle="modal" data-bs-target="#Logout" style="padding-inline: 0.7rem;">
                 <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal fade" id="Logout" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -47,10 +49,16 @@
                     </div>
                 </form>
             </i>
-            
+
             <div class="nav-item search-logo">
                 <a class="nav-link" asp-controller="Home" asp-action="Index">
                     <i style="margin-inline:0.3rem;" class="fa-solid fa-magnifying-glass"></i>
+                </a>
+            </div>
+            @* favorites *@
+            <div class="nav-item">
+                <a class="nav-link">
+                    <i style="margin-inline:0.3rem;" class="fa-solid fa-heart"></i>
                 </a>
             </div>
         </div>

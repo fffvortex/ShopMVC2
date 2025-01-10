@@ -9,8 +9,10 @@
         public string Search { get; set; } = "";
         public int ProductTypeId { get; set; } = 0;
 
-        public int MaxPrice { get; set; } = 0;
+        public double MaxPrice { get; set; } = 0;
 
-        public int MinPrice { get; set; } = 0;
+        public double MinPrice { get; set; } = 0;
+
+        public double MaxPriceOfAllProducts { get; set; } = 0;
     }
 }

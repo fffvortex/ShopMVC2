@@ -12,19 +12,40 @@
         <div class="card mx-2 mb-4" style="width: 19rem;">
             @if (string.IsNullOrWhiteSpace(@product.ProductImage))
             {
-                <img src="/img/No_Picture.jpg" class="card-img-top" alt="">
+                <img src="/img/No_Picture.jpg" class="card-img-top" alt="@product.ProductTitle">
             }
             else
             {
-                <img src="/img/@product.ProductImage" class="card-img-top" alt="">
+                <img src="/img/@product.ProductImage" class="card-img-top" alt="@product.ProductTitle">
             }
             <div class="card-body">
                 <h5 class="card-title">@product.ProductTitle</h5>
                 <p class="card-text">@product.ProductTypeTitle </p>
                 <p class="card-text">@product.Price £</p>
-                    <a href="#" class="btn btn-success align-content-center">Add to cart</a>
+                <button onclick="add(@product.Id)" type="button" class="btn btn-success align-content-center">Add to cart</button>
             </div>
         </div>
     }
 </div>
 
+@section Scripts {
+    <script type="text/javascript">
+        async function add(productId){
+            var userNameEl = document.getElementById('username')
+            if(userNameEl == null){
+                window.location.href = "/Identity/Account/Login"
+            }
+            try{
+                var response = await fetch(`/Cart/AddProduct?productId=${productId}`)
+                if(response.status === 200){
+                    var result = await response.json()
+                    var cartCountEl = document.getElementById('cartCount')
+                    cartCountEl.innerHTML = result
+                }
+            }
+            catch(err){
+                console.log(err)
+            }
+        }
+    </script>
+}

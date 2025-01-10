@@ -57,6 +57,23 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+    <script type="text/javascript">
+        loadCartCount()
+        async function loadCartCount(){
+            try{
+                var response = await fetch(`/Cart/GetTotalProductInCart`)
+                if(response.status === 200){
+                    var result = await response.json()
+                    var cartCountEl = document.getElementById('cartCount')
+                    cartCountEl.innerHTML = result
+                }
+            }
+            catch(err){
+                console.log(err)
+            }
+        }
+    </script>
 </body>
 </html>
+
+@await RenderSectionAsync("Scripts", required: false)

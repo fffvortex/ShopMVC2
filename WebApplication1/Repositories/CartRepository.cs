@@ -16,15 +16,15 @@ namespace ShopMVC2.Repositories
             _context = context;
             _httpContextAccessor = httpContextAccessor;
         }
-        public async Task<bool> AddProduct(int productId, int quantity)
+        public async Task<int> AddProduct(int productId, int quantity)
         {
+            string userId = GetUserId();
             using var transaction = _context.Database.BeginTransaction();
             try
             {
-                string userId = GetUserId();
                 if (string.IsNullOrEmpty(userId))
                 {
-                    return false;
+                    throw new Exception("User is not logged in");
                 }
                 var cart = await GetCart(userId);
                 if (cart == null)
@@ -54,36 +54,37 @@ namespace ShopMVC2.Repositories
                 }
                 _context.SaveChanges();
                 transaction.Commit();
-                return true;
+                
 
             }
             catch (Exception ex)
             {
-                return false;
+                throw new Exception(ex.Message);
             }
-
+            var cartProductCount = await GetCartProductCount(userId);
+            return cartProductCount;
         }
 
-        public async Task<bool> RemoveProduct(int productId)
+        public async Task<int> RemoveProduct(int productId)
         {
+            string userId = GetUserId();
             try
             {
-                string userId = GetUserId();
                 if (string.IsNullOrEmpty(userId))
                 {
-                    return false;
+                    throw new Exception("User is not logged in");
                 }
                 var cart = await GetCart(userId);
                 if (cart == null)
                 {
-                    return false;
+                    throw new Exception($"Could not find cart {userId}");
                 }
 
                 var cartProduct = _context.CartDetails
                     .FirstOrDefault(c => c.ShoppingCartId == cart.Id && c.ProductId == productId);
                 if (cartProduct == null)
                 {
-                    return false;
+                    throw new Exception("No proucts in cart");
                 }
                 else if (cartProduct.Quantity == 1)
                 {
@@ -91,20 +92,21 @@ namespace ShopMVC2.Repositories
                 }
                 else
                 {
-                    cartProduct.Quantity = cartProduct.Quantity - 1;
+                    cartProduct.Quantity--;
                 }
                 _context.SaveChanges();
-                return true;
 
             }
             catch (Exception ex)
             {
-                return false;
+                throw new Exception(ex.Message);
             }
+            var cartProductCount = await GetCartProductCount(userId);
+            return cartProductCount;
 
         }
 
-        public async Task<IEnumerable<ShoppingCart>> GetUserCart()
+        public async Task<ShoppingCart> GetUserCart()
         {
             var userId = GetUserId();
             if (string.IsNullOrEmpty(userId))
@@ -116,7 +118,7 @@ namespace ShopMVC2.Repositories
                 .ThenInclude(a => a.Product)
                 .ThenInclude(a => a.ProductType)
                 .Where(a => a.UserId == userId)
-                .ToListAsync();
+                .FirstOrDefaultAsync();
             return shoppingCart;
         }
 
@@ -124,6 +126,20 @@ namespace ShopMVC2.Repositories
         {
             var result = await _context.ShoppingCarts.FirstOrDefaultAsync(x => x.UserId == userId);
             return result;
+        }
+
+        public async Task<int> GetCartProductCount(string userId="")
+        {
+            if (string.IsNullOrEmpty(userId))
+            {
+                userId = GetUserId();
+            }
+            var data = await (from cart in _context.ShoppingCarts
+                              join cartDetail in _context.CartDetails
+                              on cart.Id equals cartDetail.ShoppingCartId
+                              where cart.UserId == userId
+                              select new { cartDetail.Id }).ToListAsync();
+            return data.Count();
         }
 
         private string GetUserId()
