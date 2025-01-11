@@ -19,7 +19,7 @@ namespace ShopMVC2.Controllers
             {
                 return Ok(cartCount);
             }
-            return RedirectToAction(nameof(GetUserCart)); //nameof
+            return RedirectToAction(nameof(GetUserCart));
         }
         public async Task<IActionResult> RemoveProduct(int productId)
         {
@@ -37,6 +37,16 @@ namespace ShopMVC2.Controllers
         {
             int cartProductCount = await _cartRepository.GetCartProductCount();
             return Ok(cartProductCount);
+        }
+
+        public async Task<IActionResult> Checkout()
+        {
+            var isChecked = await _cartRepository.Checkout();
+            if (!isChecked)
+            {
+                throw new Exception("Something happened wrong");
+            }
+            return RedirectToAction("Index", "Home");
         }
     }
 }

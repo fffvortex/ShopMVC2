@@ -26,6 +26,7 @@ namespace ShopMVC2.Repositories
                 {
                     throw new Exception("User is not logged in");
                 }
+
                 var cart = await GetCart(userId);
                 if (cart == null)
                 {
@@ -36,26 +37,28 @@ namespace ShopMVC2.Repositories
                     _context.ShoppingCarts.Add(cart);
                 }
                 _context.SaveChanges();
+
                 var cartProduct = _context.CartDetails
                     .FirstOrDefault(c => c.ShoppingCartId == cart.Id && c.ProductId == productId);
+
                 if (cartProduct != null)
                 {
                     cartProduct.Quantity += quantity;
                 }
                 else
                 {
+                    var product = _context.Products.Find(productId);
                     cartProduct = new CartDetail
                     {
                         ProductId = productId,
                         ShoppingCartId = cart.Id,
-                        Quantity = quantity
+                        Quantity = quantity,
+                        UnitPrice = product.Price
                     };
                     _context.CartDetails.Add(cartProduct);
                 }
                 _context.SaveChanges();
                 transaction.Commit();
-                
-
             }
             catch (Exception ex)
             {
@@ -118,8 +121,66 @@ namespace ShopMVC2.Repositories
                 .ThenInclude(a => a.Product)
                 .ThenInclude(a => a.ProductType)
                 .Where(a => a.UserId == userId)
+                .AsNoTracking()
                 .FirstOrDefaultAsync();
             return shoppingCart;
+        }
+
+        public async Task<bool> Checkout()
+        {
+            using var transaction = _context.Database.BeginTransaction();
+            try
+            {
+                var userId = GetUserId();
+                if (string.IsNullOrEmpty(userId))
+                {
+                    throw new Exception("User is not logged in");
+                }
+                var cart = await GetCart(userId);
+
+                if(cart == null)
+                {
+                    throw new Exception("Invalid cart");
+                }
+                var cartDetail = await _context.CartDetails
+                    .Where(c => c.ShoppingCartId == cart.Id)
+                    .ToListAsync();
+
+                if(cartDetail.Count == 0)
+                {
+                    throw new Exception("Cart is empty");
+                }
+                var order = new Order
+                {
+                    UserId = userId,
+                    CreatedAt = DateTime.UtcNow,
+                    OrderStatusId = 1
+                };
+                _context.Orders.Add(order);
+                _context.SaveChanges();
+                foreach(var item in cartDetail)
+                {
+                    var orderDetail = new OrderDetail
+                    {
+                        ProductId = item.ProductId,
+                        OrderId = order.Id,
+                        Quantity = item.Quantity,
+                        UnitPrice = item.UnitPrice
+                    };
+                    _context.OrderDetails.Add(orderDetail);
+                }
+                await _context.SaveChangesAsync();
+
+                _context.CartDetails.RemoveRange(cartDetail);
+                await _context.SaveChangesAsync();
+                transaction.Commit();
+                return true;
+            }
+            catch (Exception)
+            {
+                transaction.Rollback();
+                return false;
+            }
         }
 
         private async Task<ShoppingCart> GetCart(string userId)
@@ -128,7 +189,7 @@ namespace ShopMVC2.Repositories
             return result;
         }
 
-        public async Task<int> GetCartProductCount(string userId="")
+        public async Task<int> GetCartProductCount(string userId = "")
         {
             if (string.IsNullOrEmpty(userId))
             {
@@ -145,8 +206,7 @@ namespace ShopMVC2.Repositories
         private string GetUserId()
         {
             ClaimsPrincipal user = _httpContextAccessor.HttpContext.User;
-            var userId = _userManager.GetUserId(user);
-            return userId;
+            return _userManager.GetUserId(user);
         }
     }
 }
