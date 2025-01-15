@@ -20,6 +20,8 @@ wwwroot\img\Francisca.webp
 wwwroot\img\Franky.webp
 wwwroot\img\Gabi.webp
 wwwroot\img\Gus.webp
+wwwroot\img\header.jpg
+wwwroot\img\header.png
 wwwroot\img\Hugo in glass.webp
 wwwroot\img\Ian.webp
 wwwroot\img\icons8-flower-64.png

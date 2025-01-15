@@ -137,12 +137,6 @@ select{
     color: #1e8a42;
     margin-top: 0.3rem;
 }
-.modal-body {
-    font-family: "Kanit", serif;
-    font-weight: bold;
-    font-size:medium;
-    color: #1c703f;
-}
 .btn-back {
     font-family: "Kanit", serif;
     font-size: medium;
@@ -191,3 +185,23 @@ select{
     flex-direction: column;
     justify-content: space-between;
 }
+.sticky-top {
+    background-image: url(../img/header.jpg);
+}
+.footer {
+    background-image: url(../img/header.png);
+    background-size: contain;
+    line-height: 15rem;
+    position: absolute;
+    width: 100%;
+    margin-top: 2rem;
+    bottom:0;
+    height:15rem;
+}
+main{
+    margin-bottom:15rem;
+}
+i {
+    filter: drop-shadow(0px 0px 1px #000000);
+}
+

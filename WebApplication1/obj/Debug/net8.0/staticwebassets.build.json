@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8VNYRRhpcJnnQaTkfYAf61LL7IKEELb7tIf0MexQOf8=",
+  "Hash": "pj6vsSEC6H4JClTC9hkhNoD7AlXHeUrM+ybvkvBRA5Q=",
   "Source": "ShopMVC2",
   "BasePath": "_content/ShopMVC2",
   "Mode": "Default",
@@ -1333,8 +1333,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "vhd9695u3t",
-      "Integrity": "bfkBgI5AvIHQkNZ9ZjxMBFz6vYSLKXOXoGGDRN4zDMs=",
+      "Fingerprint": "y07kqz5qs2",
+      "Integrity": "bgnxgv2159rEdcp5QZwfweE1iBIc9ClTsjh9naQdgL8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1779,6 +1779,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Gus.webp"
+    },
+    {
+      "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\header.jpg",
+      "SourceId": "ShopMVC2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/ShopMVC2",
+      "RelativePath": "img/header#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7ydapacrku",
+      "Integrity": "HwbEYkUqRA5ZOXQjpk0fo35/9wRfMPN7I6nc8YQvYTY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\header.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\header.png",
+      "SourceId": "ShopMVC2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/ShopMVC2",
+      "RelativePath": "img/header#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "avt1hynk2o",
+      "Integrity": "djaY0sNjP5sXCwWjtH5C5eUY8XFgMb3siAH/wD8SABg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\header.png"
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Hugo in glass.webp",
@@ -4292,7 +4334,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3273"
+          "Value": "3528"
         },
         {
           "Name": "Content-Type",
@@ -4300,11 +4342,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bfkBgI5AvIHQkNZ9ZjxMBFz6vYSLKXOXoGGDRN4zDMs=\""
+          "Value": "\"bgnxgv2159rEdcp5QZwfweE1iBIc9ClTsjh9naQdgL8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 14:42:32 GMT"
+          "Value": "Wed, 15 Jan 2025 16:46:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4314,12 +4356,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bfkBgI5AvIHQkNZ9ZjxMBFz6vYSLKXOXoGGDRN4zDMs="
+          "Value": "sha256-bgnxgv2159rEdcp5QZwfweE1iBIc9ClTsjh9naQdgL8="
         }
       ]
     },
     {
-      "Route": "css/site.vhd9695u3t.css",
+      "Route": "css/site.y07kqz5qs2.css",
       "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4329,7 +4371,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3273"
+          "Value": "3528"
         },
         {
           "Name": "Content-Type",
@@ -4337,11 +4379,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bfkBgI5AvIHQkNZ9ZjxMBFz6vYSLKXOXoGGDRN4zDMs=\""
+          "Value": "\"bgnxgv2159rEdcp5QZwfweE1iBIc9ClTsjh9naQdgL8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 14:42:32 GMT"
+          "Value": "Wed, 15 Jan 2025 16:46:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4351,7 +4393,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vhd9695u3t"
+          "Value": "y07kqz5qs2"
         },
         {
           "Name": "label",
@@ -4359,7 +4401,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-bfkBgI5AvIHQkNZ9ZjxMBFz6vYSLKXOXoGGDRN4zDMs="
+          "Value": "sha256-bgnxgv2159rEdcp5QZwfweE1iBIc9ClTsjh9naQdgL8="
         }
       ]
     },
@@ -8302,6 +8344,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-Hwp2cU3joom/HmB4pICd+d2g9R2YKbKztR7brUMW12k="
+        }
+      ]
+    },
+    {
+      "Route": "img/header.7ydapacrku.jpg",
+      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\header.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84609"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HwbEYkUqRA5ZOXQjpk0fo35/9wRfMPN7I6nc8YQvYTY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 15:53:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7ydapacrku"
+        },
+        {
+          "Name": "label",
+          "Value": "img/header.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HwbEYkUqRA5ZOXQjpk0fo35/9wRfMPN7I6nc8YQvYTY="
+        }
+      ]
+    },
+    {
+      "Route": "img/header.avt1hynk2o.png",
+      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\header.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1054758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"djaY0sNjP5sXCwWjtH5C5eUY8XFgMb3siAH/wD8SABg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 15:05:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "avt1hynk2o"
+        },
+        {
+          "Name": "label",
+          "Value": "img/header.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-djaY0sNjP5sXCwWjtH5C5eUY8XFgMb3siAH/wD8SABg="
+        }
+      ]
+    },
+    {
+      "Route": "img/header.jpg",
+      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\header.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84609"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HwbEYkUqRA5ZOXQjpk0fo35/9wRfMPN7I6nc8YQvYTY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 15:53:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HwbEYkUqRA5ZOXQjpk0fo35/9wRfMPN7I6nc8YQvYTY="
+        }
+      ]
+    },
+    {
+      "Route": "img/header.png",
+      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\header.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1054758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"djaY0sNjP5sXCwWjtH5C5eUY8XFgMb3siAH/wD8SABg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 15:05:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-djaY0sNjP5sXCwWjtH5C5eUY8XFgMb3siAH/wD8SABg="
         }
       ]
     },

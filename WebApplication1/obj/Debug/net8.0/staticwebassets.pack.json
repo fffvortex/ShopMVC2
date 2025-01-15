@@ -309,6 +309,14 @@
       "PackagePath": "staticwebassets\\img\\Zach.webp"
     },
     {
+      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\header.jpg",
+      "PackagePath": "staticwebassets\\img\\header.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\header.png",
+      "PackagePath": "staticwebassets\\img\\header.png"
+    },
+    {
       "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\icons8-flower-64.png",
       "PackagePath": "staticwebassets\\img\\icons8-flower-64.png"
     },
