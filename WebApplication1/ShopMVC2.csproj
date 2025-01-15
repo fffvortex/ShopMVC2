@@ -23,6 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Views\CartPartial\" />
     <Folder Include="Views\Favorites\" />
   </ItemGroup>
 

@@ -8,5 +8,7 @@ namespace ShopMVC2.Repositories
         Task<IEnumerable<ProductType>> GetProductTypes();
 
         Task<double> GetMaxPrice();
+
+        Task<Product> GetProductById(int id);
     }
 }

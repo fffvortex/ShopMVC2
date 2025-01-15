@@ -12,14 +12,16 @@
             {
                 <tr>
                     <td>
-                        @if (string.IsNullOrEmpty(cartItem.Product.ProductImage))
-                        {
-                            <img class="img-table" src="/img/No_Picture.jpg" alt="@cartItem.Product.ProductTitle" />
-                        }
-                        else
-                        {
-                            <img class="img-table" src="/img/@cartItem.Product.ProductImage" alt="@cartItem.Product.ProductTitle" />
-                        }
+                        <a href="@Url.Action("IndexSingle","Home", new {id = cartItem.Product.Id})">
+                            @if (string.IsNullOrEmpty(cartItem.Product.ProductImage))
+                            {
+                                <img class="img-table" src="/img/No_Picture.jpg" alt="@cartItem.Product.ProductTitle" />
+                            }
+                            else
+                            {
+                                <img class="img-table" src="/img/@cartItem.Product.ProductImage" alt="@cartItem.Product.ProductTitle" />
+                            }
+                        </a>
                     </td>
                     <td>
                         Title : @cartItem.Product.ProductTitle <br /><p>Type: @cartItem.Product.ProductType.TypeTitle</p> <br />

@@ -71,7 +71,6 @@ body {
 a {
     color: #1c703f;
 }
-
     a:hover {
         color: #23b746;
     }
@@ -167,4 +166,28 @@ select{
     width: 8rem;
     border: 1px solid #6d6d6d;
     border-radius: 10px;
+}
+.full-card-img{
+    width: 100%;
+    border-radius: 10px;
+}
+.price-icon {
+    text-align: center;
+    line-height: 100px;
+    background-image: url(../img/Price.png);
+    background-size: cover;
+    height: 50px;
+    width: 150px;
+    margin-inline: auto;
+    filter: drop-shadow(5px 5px 10px #000000);
+}
+    .price-icon > h3 {
+        bottom: 1rem;
+        line-height: 170%;
+        color: forestgreen;
+    }
+.col-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

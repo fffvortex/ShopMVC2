@@ -24,6 +24,7 @@
                     </a>
                 }
             </div>
+            @* cart *@
             <div class="form-check-inline">
                 <a asp-controller="Cart" asp-action="GetUserCart" class="nav-link">
                     <i style="margin-inline:0.3rem;" class="fa-solid fa-cart-shopping"><span id="cartCount" class="cart-counter">0</span></i>
@@ -56,12 +57,13 @@
                 </a>
             </div>
             @* favorites *@
-            <div class="nav-item">
+            <div>
                 <a class="nav-link">
                     <i style="margin-inline:0.3rem;" class="fa-solid fa-heart"></i>
                 </a>
             </div>
         </div>
+
     }
     else
     {

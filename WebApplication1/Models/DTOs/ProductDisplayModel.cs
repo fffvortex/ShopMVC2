@@ -7,6 +7,7 @@
         public IEnumerable<ProductType> ProductTypes { get; set; }
 
         public string Search { get; set; } = "";
+
         public int ProductTypeId { get; set; } = 0;
 
         public double MaxPrice { get; set; } = 0;

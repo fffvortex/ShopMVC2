@@ -6,12 +6,9 @@ namespace WebApplication1.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
         private readonly IHomeRepository _homeRepository;
-
-        public HomeController(ILogger<HomeController> logger, IHomeRepository homeRepository)
+        public HomeController(IHomeRepository homeRepository)
         {
-            _logger = logger;
             _homeRepository = homeRepository;
         }
 
@@ -31,6 +28,13 @@ namespace WebApplication1.Controllers
                 MaxPriceOfAllProducts=maxPriceOfAllProducts
             };
             return View(productModel);
+        }
+
+        public async Task<IActionResult> IndexSingle(int id)
+        {
+            ViewBag.Id = id;
+            var product = await _homeRepository.GetProductById(id);
+            return View(product);
         }
 
         public IActionResult Privacy()

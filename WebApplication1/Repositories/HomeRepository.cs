@@ -52,5 +52,23 @@ namespace ShopMVC2.Repositories
 
             return products;
         }
+
+        public async Task<Product> GetProductById(int id)
+        {
+            var productById = await (from product in _context.Products
+                                     join types in _context.ProductTypes on product.ProductTypeId equals types.Id
+                                     where product.Id == id
+                                     select new Product
+                                     {
+                                         Id = product.Id,
+                                         ProductImage = product.ProductImage,
+                                         Description = product.Description,
+                                         ProductTitle = product.ProductTitle,
+                                         ProductTypeId = product.ProductTypeId,
+                                         Price = product.Price,
+                                         ProductTypeTitle = types.TypeTitle
+                                     }).AsNoTracking().FirstOrDefaultAsync();
+            return productById;
+        }
     }
 }

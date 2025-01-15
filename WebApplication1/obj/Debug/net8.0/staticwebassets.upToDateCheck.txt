@@ -57,6 +57,7 @@ wwwroot\img\Pele.webp
 wwwroot\img\Pharrell.webp
 wwwroot\img\Piña.webp
 wwwroot\img\Pippa.webp
+wwwroot\img\Price.png
 wwwroot\img\Rachel.webp
 wwwroot\img\Rapunzel.webp
 wwwroot\img\Reggie.webp

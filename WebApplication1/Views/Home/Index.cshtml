@@ -12,11 +12,15 @@
         <div class="card mx-2 mb-4" style="width: 19rem;">
             @if (string.IsNullOrWhiteSpace(@product.ProductImage))
             {
-                <img src="/img/No_Picture.jpg" class="card-img-top" alt="@product.ProductTitle">
+                <a href="@Url.Action("IndexSingle","Home", new {id = product.Id})">
+                    <img src="/img/No_Picture.jpg" class="card-img-top" alt="@product.ProductTitle">
+                </a>
             }
             else
             {
-                <img src="/img/@product.ProductImage" class="card-img-top" alt="@product.ProductTitle">
+                <a href="@Url.Action("IndexSingle","Home", new {id = product.Id})">
+                    <img src="/img/@product.ProductImage" class="card-img-top" alt="@product.ProductTitle">
+                </a>
             }
             <div class="card-body">
                 <h5 class="card-title">@product.ProductTitle</h5>
