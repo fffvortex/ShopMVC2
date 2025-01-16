@@ -75,6 +75,8 @@ wwwroot\img\Susie.webp
 wwwroot\img\Theodora.webp
 wwwroot\img\Theodore.webp
 wwwroot\img\Toby.webp
+wwwroot\img\topdark.jpg
+wwwroot\img\toplight.jpg
 wwwroot\img\Val.webp
 wwwroot\img\Venus.webp
 wwwroot\img\Vivi.webp

@@ -16,16 +16,16 @@
             <div style="justify-content:center; align-items: center; text-align: center;">
                 <h2>@Model.ProductTitle</h2>
             </div>
-            <div style="border-top: solid 1px gray"></div>
+            <div style="border-top: solid 1px gray;"></div>
             <br />
-            <h3 style="text-align:center;">@Model.ProductTypeTitle</h3>
-            <div style="border-top: solid 1px gray"></div>
+            <h4 style="text-align:center;">@Model.ProductTypeTitle</h4>
+            <div style="border-top: solid 1px gray; width:80%; margin-inline:auto;"></div>
             <br />
         </div>
         <div class="row">
             <div style="text-align: center;">
                 <div class="price-icon">
-                    <h3 style="text-align:center; bottom:0;">@Model.Price £</h3>
+                    <h3 style="text-align:center;">@Model.Price £</h3>
                 </div>
                 <button onclick="add(@Model.Id)" type="button" class="btn btn-success align-content-center">Add to cart</button>
             </div>

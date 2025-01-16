@@ -30,9 +30,9 @@
                     <i style="margin-inline:0.3rem;" class="fa-solid fa-cart-shopping"><span id="cartCount" class="cart-counter">0</span></i>
                 </a>
             </div>
-                <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-                    <button id="logout" type="submit" class="nav-link"><i style="color: #1e8a42;margin-right:0.2rem;margin-left: 0.5rem; margin-top:0.1rem;" class="fa-solid fa-right-from-bracket"></i></button>
-                </form>
+            <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                <button id="logout" type="submit" class="nav-link"><i style="color: #1e8a42;margin-right:0.2rem;margin-left: 0.5rem; margin-top:0.1rem;" class="fa-solid fa-right-from-bracket"></i></button>
+            </form>
             <div class="nav-item search-logo">
                 <a class="nav-link" asp-controller="Home" asp-action="Index">
                     <i style="margin-inline:0.3rem;" class="fa-solid fa-magnifying-glass"></i>

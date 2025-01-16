@@ -333,6 +333,14 @@
       "PackagePath": "staticwebassets\\img\\slide3.jpg"
     },
     {
+      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\topdark.jpg",
+      "PackagePath": "staticwebassets\\img\\topdark.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\toplight.jpg",
+      "PackagePath": "staticwebassets\\img\\toplight.jpg"
+    },
+    {
       "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\js\\layout.js",
       "PackagePath": "staticwebassets\\js\\layout.js"
     },
