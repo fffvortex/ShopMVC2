@@ -212,3 +212,7 @@ i {
     filter: drop-shadow(0px 0px 1px #000000);
 }
 
+.th-table{
+    font-size: smaller;
+    font-weight: 400;
+}

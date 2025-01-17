@@ -8,5 +8,6 @@ namespace ShopMVC2.Repositories
         Task<ShoppingCart> GetUserCart();
         Task<int> GetCartProductCount(string userId = "");
         Task<bool> Checkout();
+        string GetUserId();
     }
 }

@@ -203,7 +203,7 @@ namespace ShopMVC2.Repositories
             return data.Count();
         }
 
-        private string GetUserId()
+        public string GetUserId()
         {
             ClaimsPrincipal user = _httpContextAccessor.HttpContext.User;
             return _userManager.GetUserId(user);

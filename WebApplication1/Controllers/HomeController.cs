@@ -37,11 +37,6 @@ namespace WebApplication1.Controllers
             return View(product);
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
         public IActionResult Products()
         {
             return View();

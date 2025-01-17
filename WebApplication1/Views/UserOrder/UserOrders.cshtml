@@ -1,0 +1,61 @@
+﻿@model List<Order>
+
+@if (Model != null && Model.Count() > 0)
+{
+    <h3>My orders</h3>
+    <div style="width: 100%; margin-inline: auto;">
+        <table class="table table-striped">
+            @foreach (var order in Model)
+            {
+                <tr>
+                    <td>
+                        Order date: @order.CreatedAt.ToString("dd-MM-yyyy")
+                    </td>
+                    <td>
+                        Order status: @order.OrderStatus.StatusTitle
+                    </td>
+                    @if (order.OrderDetails != null && order.OrderDetails.Count > 0)
+                    {
+                    <tr>
+                        <div style="width: 100%; margin-inline: auto;">
+                            <table class="table table-striped">
+                                    @foreach (var cartItem in order.OrderDetails)
+                                    {
+                                    <tr>
+                                        <td>
+                                            <a href="@Url.Action("IndexSingle","Home", new {id = cartItem.Product.Id})">
+                                                    @if (string.IsNullOrEmpty(cartItem.Product.ProductImage))
+                                                    {
+                                                    <img class="img-table" src="/img/No_Picture.jpg" alt="@cartItem.Product.ProductTitle" />
+                                                    }
+                                                    else
+                                                    {
+                                                    <img class="img-table" src="/img/@cartItem.Product.ProductImage" alt="@cartItem.Product.ProductTitle" />
+                                                    }
+                                            </a>
+                                        </td>
+                                        <td>
+                                            Title: @cartItem.Product.ProductTitle <br /><p>Type: @cartItem.Product.ProductType.TypeTitle</p> <br />
+                                        </td>
+                                        <td>Price: @cartItem.Product.Price £  <br /><p> Quantity: @cartItem.Quantity</p></td>
+                                        <td>Total price: @(cartItem.Product.Price * cartItem.Quantity) £</td>
+                                    </tr>
+                                    }
+                                <tr style="width: 100%;margin-inline: auto; text-align: center;">
+                                    <td colspan="88" style="width: 100%;margin-inline: auto;">
+                                        Total:  @(order.OrderDetails.Select(item => item.Product.Price * item.Quantity).Sum()) £
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </tr>
+                    }
+                </tr>
+            }
+        </table>
+    </div>
+}
+else
+{
+    <h3 style="text-align:center">No orders</h3>
+}

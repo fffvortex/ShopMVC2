@@ -2,10 +2,12 @@
 @{
     ViewData["Title"] = "GetUserCart";
 }
-
+<a href="/UserOrder/UserOrders">
+    my orders
+</a>
 @if (Model != null && Model.CartDetails != null && Model.CartDetails.Count > 0)
 {
-    <div>
+    <div style="margin-inline: auto;">
         <h3 style ="text-align:center">My cart</h3>
         <table class="table table-striped">
             @foreach (var cartItem in Model.CartDetails)
@@ -24,7 +26,7 @@
                         </a>
                     </td>
                     <td>
-                        Title : @cartItem.Product.ProductTitle <br /><p>Type: @cartItem.Product.ProductType.TypeTitle</p> <br />
+                        Title: @cartItem.Product.ProductTitle <br /><p>Type: @cartItem.Product.ProductType.TypeTitle</p> <br />
                     </td>
                     <td>Price: @cartItem.Product.Price £  <br /><p> Quantity: @cartItem.Quantity</p></td>
                     <td>Total price: @(cartItem.Product.Price * cartItem.Quantity) £</td>

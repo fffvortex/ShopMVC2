@@ -16,6 +16,7 @@ builder.Services.AddRazorPages();
 
 builder.Services.AddTransient<IHomeRepository, HomeRepository>();
 builder.Services.AddTransient<ICartRepository, CartRepository>();
+builder.Services.AddTransient<IUserOrderRepository, UserOrderRepository>();
 
 builder.Services.Configure<IdentityOptions>(options =>
 {
