@@ -126,7 +126,7 @@ namespace ShopMVC2.Repositories
             return shoppingCart;
         }
 
-        public async Task<bool> Checkout()
+        public async Task<bool> Checkout(CheckoutModel model)
         {
             using var transaction = _context.Database.BeginTransaction();
             try
@@ -150,11 +150,23 @@ namespace ShopMVC2.Repositories
                 {
                     throw new Exception("Cart is empty");
                 }
+                var pendingRecord = await _context.OrderStatuses
+                    .FirstOrDefaultAsync(s => s.StatusTitle == "Pending");
+                if(pendingRecord == null)
+                {
+                    throw new Exception("Order status does not have Pending status");
+                }
                 var order = new Order
                 {
                     UserId = userId,
                     CreatedAt = DateTime.UtcNow,
-                    OrderStatusId = 1
+                    Name = model.Name,
+                    Email = model.Email,
+                    MobileNumber = model.MobileNumber,
+                    Address = model.Address,
+                    PaymentMethod = model.PaymentMethod,
+                    IsPaid = false,
+                    OrderStatusId = pendingRecord.StatusId
                 };
                 _context.Orders.Add(order);
                 _context.SaveChanges();

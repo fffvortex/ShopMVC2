@@ -21,6 +21,11 @@
             <h4 style="text-align:center;">@Model.ProductTypeTitle</h4>
             <div style="border-top: solid 1px gray; width:80%; margin-inline:auto;"></div>
             <br />
+            <div class="collapse large-collapse" id="collapseExample">
+                <div class="card card-body">
+                    <p>@Model.Description</p>
+                </div>
+            </div>
         </div>
         <div class="row">
             <div style="text-align: center;">
@@ -28,27 +33,24 @@
                     <h3 style="text-align:center;">@Model.Price £</h3>
                 </div>
                 <button onclick="add(@Model.Id)" type="button" class="btn btn-success align-content-center">Add to cart</button>
+                <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    About @Model.ProductTitle
+                </button>
             </div>
         </div>
     </div>
 </div>
 <br />
+
 <div>
-    <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    About @Model.ProductTitle
-                </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <p>@Model.Description</p>
-                </div>
-            </div>
-        </div>
+    
+</div>
+<div class="collapse small-collapse" id="collapseExample">
+    <div class="card card-body">
+        <p>@Model.Description</p>
     </div>
 </div>
+
 
 @section Scripts {
     <script type="text/javascript">

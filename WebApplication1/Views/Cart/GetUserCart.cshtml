@@ -2,13 +2,22 @@
 @{
     ViewData["Title"] = "GetUserCart";
 }
-<a href="/UserOrder/UserOrders">
-    my orders
-</a>
+<div class="row" style="margin-block: 1rem;">
+    <div style="text-align: center;" class="col-6">
+        <a href="/UserOrder/UserOrders">
+            <img style="width:2rem;" src="/img/icons8-purchase-order-48.png" />my orders
+        </a>
+    </div>
+    <div style="text-align: center;" class="col-6">
+        <a href="/Home/Index">
+            <img style="width:2rem;" src="/img/icons8-shop-48.png" />go to shop
+        </a>
+    </div>
+</div>
 @if (Model != null && Model.CartDetails != null && Model.CartDetails.Count > 0)
 {
     <div style="margin-inline: auto;">
-        <h3 style ="text-align:center">My cart</h3>
+        <h3 style="text-align:center">My cart</h3>
         <table class="table table-striped">
             @foreach (var cartItem in Model.CartDetails)
             {
@@ -47,5 +56,8 @@
 }
 else
 {
-    <h3 style="text-align:center">Cart is empty</h3>
+    <div style="text-align: center;">
+        <img style="width: 300px;" src="~/img/empty-cart.png" />
+        <h3 style="text-align:center">Cart is empty</h3>
+    </div>
 }

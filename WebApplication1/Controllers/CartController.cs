@@ -38,15 +38,33 @@ namespace ShopMVC2.Controllers
             int cartProductCount = await _cartRepository.GetCartProductCount();
             return Ok(cartProductCount);
         }
-
-        public async Task<IActionResult> Checkout()
+        public IActionResult Checkout()
         {
-            var isChecked = await _cartRepository.Checkout();
+            return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> Checkout(CheckoutModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+            var isChecked = await _cartRepository.Checkout(model);
             if (!isChecked)
             {
-                throw new Exception("Something happened wrong");
+                return RedirectToAction(nameof(OrderFailure));
             }
-            return RedirectToAction("Index", "Home");
+            TempData["OrderName"] = model.Name;
+            return RedirectToAction(nameof(OrderSuccess));
+        }
+
+        public IActionResult OrderSuccess()
+        {
+            return View();
+        }
+        public IActionResult OrderFailure()
+        {
+            return View();
         }
     }
 }

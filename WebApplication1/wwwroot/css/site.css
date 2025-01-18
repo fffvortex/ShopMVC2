@@ -195,24 +195,21 @@ select{
     background-size: cover;
 }
 
-.footer {
-    background-image: url(../img/header.png);
-    background-size: contain;
-    line-height: 15rem;
-    position: absolute;
-    width: 100%;
-    margin-top: 2rem;
-    bottom: 0;
-    height: 15rem;
-}
-main{
-    margin-bottom:15rem;
-}
 i {
     filter: drop-shadow(0px 0px 1px #000000);
 }
-
-.th-table{
-    font-size: smaller;
-    font-weight: 400;
+.small-collapse{
+    display: block;
+}
+.large-collapse {
+    display: none;
+}
+@media(min-width:992px) {
+    .large-collapse{
+        display: block;
+        font-size: smaller;
+    }
+    .small-collapse{
+        display:none;
+    }
 }

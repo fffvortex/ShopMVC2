@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fu0LOz6mXHvu7NUoPpHXpEiOYInPFkhnmTQAj9fUrts=",
+  "Hash": "jFk0Er4bK+rbAFUGdQEMZ4xyZjl0lKr5vX5KqQPVVGI=",
   "Source": "ShopMVC2",
   "BasePath": "_content/ShopMVC2",
   "Mode": "Default",
@@ -1333,8 +1333,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ez64gh8bjd",
-      "Integrity": "WjDehQV7lBhALXvFTBGoAH8fcuMLhBVVJtxS6L3O3z8=",
+      "Fingerprint": "uvic98v498",
+      "Integrity": "mqNZCA0FdagVnxdAP4vPyeqog53Ldbxmmvt+SwxuNqM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1613,6 +1613,27 @@
       "OriginalItemSpec": "wwwroot\\img\\Dylan.webp"
     },
     {
+      "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\empty-cart.png",
+      "SourceId": "ShopMVC2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/ShopMVC2",
+      "RelativePath": "img/empty-cart#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8ujgqkv3om",
+      "Integrity": "kF1XDT/rrBKVGBl71c2Ndamhuyd4PkG8H9bH2HWbtCk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\empty-cart.png"
+    },
+    {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Evie.webp",
       "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
@@ -1884,6 +1905,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\icons8-flower-64.png"
+    },
+    {
+      "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\icons8-purchase-order-48.png",
+      "SourceId": "ShopMVC2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/ShopMVC2",
+      "RelativePath": "img/icons8-purchase-order-48#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "73tfzx96kl",
+      "Integrity": "/YcvgTfIIv7ej5GXZBrHr5bo6NN1kN4hD3sVLoBesj4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\icons8-purchase-order-48.png"
+    },
+    {
+      "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\icons8-shop-48.png",
+      "SourceId": "ShopMVC2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/ShopMVC2",
+      "RelativePath": "img/icons8-shop-48#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8rw5fcyv9b",
+      "Integrity": "7MtMYbF6NbmqfZiuQornYe/KcuGBs2HphpZYpW4R+Ys=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\icons8-shop-48.png"
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Isabella.webp",
@@ -4376,7 +4439,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3744"
+          "Value": "3928"
         },
         {
           "Name": "Content-Type",
@@ -4384,11 +4447,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WjDehQV7lBhALXvFTBGoAH8fcuMLhBVVJtxS6L3O3z8=\""
+          "Value": "\"mqNZCA0FdagVnxdAP4vPyeqog53Ldbxmmvt+SwxuNqM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 13:15:39 GMT"
+          "Value": "Sat, 18 Jan 2025 10:35:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4398,12 +4461,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-WjDehQV7lBhALXvFTBGoAH8fcuMLhBVVJtxS6L3O3z8="
+          "Value": "sha256-mqNZCA0FdagVnxdAP4vPyeqog53Ldbxmmvt+SwxuNqM="
         }
       ]
     },
     {
-      "Route": "css/site.ez64gh8bjd.css",
+      "Route": "css/site.uvic98v498.css",
       "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4413,7 +4476,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3744"
+          "Value": "3928"
         },
         {
           "Name": "Content-Type",
@@ -4421,11 +4484,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WjDehQV7lBhALXvFTBGoAH8fcuMLhBVVJtxS6L3O3z8=\""
+          "Value": "\"mqNZCA0FdagVnxdAP4vPyeqog53Ldbxmmvt+SwxuNqM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 13:15:39 GMT"
+          "Value": "Sat, 18 Jan 2025 10:35:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4435,7 +4498,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ez64gh8bjd"
+          "Value": "uvic98v498"
         },
         {
           "Name": "label",
@@ -4443,7 +4506,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-WjDehQV7lBhALXvFTBGoAH8fcuMLhBVVJtxS6L3O3z8="
+          "Value": "sha256-mqNZCA0FdagVnxdAP4vPyeqog53Ldbxmmvt+SwxuNqM="
         }
       ]
     },
@@ -7734,6 +7797,88 @@
       ]
     },
     {
+      "Route": "img/empty-cart.8ujgqkv3om.png",
+      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\empty-cart.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6092"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kF1XDT/rrBKVGBl71c2Ndamhuyd4PkG8H9bH2HWbtCk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Jan 2025 15:07:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8ujgqkv3om"
+        },
+        {
+          "Name": "label",
+          "Value": "img/empty-cart.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kF1XDT/rrBKVGBl71c2Ndamhuyd4PkG8H9bH2HWbtCk="
+        }
+      ]
+    },
+    {
+      "Route": "img/empty-cart.png",
+      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\empty-cart.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6092"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kF1XDT/rrBKVGBl71c2Ndamhuyd4PkG8H9bH2HWbtCk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Jan 2025 15:07:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kF1XDT/rrBKVGBl71c2Ndamhuyd4PkG8H9bH2HWbtCk="
+        }
+      ]
+    },
+    {
       "Route": "img/Evie.mnleujqro8.webp",
       "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Evie.webp",
       "Selectors": [],
@@ -8796,6 +8941,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-chQC3853ha7BQ85jeUyxRI591oR2BFxrESBSHndGpwM="
+        }
+      ]
+    },
+    {
+      "Route": "img/icons8-purchase-order-48.73tfzx96kl.png",
+      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\icons8-purchase-order-48.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "447"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/YcvgTfIIv7ej5GXZBrHr5bo6NN1kN4hD3sVLoBesj4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Jan 2025 08:45:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "73tfzx96kl"
+        },
+        {
+          "Name": "label",
+          "Value": "img/icons8-purchase-order-48.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/YcvgTfIIv7ej5GXZBrHr5bo6NN1kN4hD3sVLoBesj4="
+        }
+      ]
+    },
+    {
+      "Route": "img/icons8-purchase-order-48.png",
+      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\icons8-purchase-order-48.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "447"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/YcvgTfIIv7ej5GXZBrHr5bo6NN1kN4hD3sVLoBesj4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Jan 2025 08:45:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/YcvgTfIIv7ej5GXZBrHr5bo6NN1kN4hD3sVLoBesj4="
+        }
+      ]
+    },
+    {
+      "Route": "img/icons8-shop-48.8rw5fcyv9b.png",
+      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\icons8-shop-48.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "402"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7MtMYbF6NbmqfZiuQornYe/KcuGBs2HphpZYpW4R+Ys=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Jan 2025 15:02:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8rw5fcyv9b"
+        },
+        {
+          "Name": "label",
+          "Value": "img/icons8-shop-48.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7MtMYbF6NbmqfZiuQornYe/KcuGBs2HphpZYpW4R+Ys="
+        }
+      ]
+    },
+    {
+      "Route": "img/icons8-shop-48.png",
+      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\icons8-shop-48.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "402"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7MtMYbF6NbmqfZiuQornYe/KcuGBs2HphpZYpW4R+Ys=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Jan 2025 15:02:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7MtMYbF6NbmqfZiuQornYe/KcuGBs2HphpZYpW4R+Ys="
         }
       ]
     },

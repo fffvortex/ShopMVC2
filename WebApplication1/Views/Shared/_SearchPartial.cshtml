@@ -3,7 +3,7 @@
 <div class="container-fluid search-panel">
     <form asp-action="Index" id="myform" class="d-flex search-form" role="search" method="POST" onload="submitForm()" onsubmit="submitForm()">
         <a class="price-filter-icon" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-            <i class="fa-solid fa-filter-circle-dollar"></i>
+            <i style="filter: drop-shadow(0px 0px 0px);" class="fa-solid fa-filter-circle-dollar"></i>
         </a>
         <input id="search" value="@Model.Search" class="form-control me-2" type="text" name="search" placeholder="Search" aria-label="Search">
         <select id="productTypeId" name="productTypeId" style="max-width:10rem;margin-inline:0.2rem;" class="form-select" aria-label="Default select example">

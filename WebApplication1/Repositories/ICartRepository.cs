@@ -7,7 +7,7 @@ namespace ShopMVC2.Repositories
         Task<int> RemoveProduct(int productId);
         Task<ShoppingCart> GetUserCart();
         Task<int> GetCartProductCount(string userId = "");
-        Task<bool> Checkout();
+        Task<bool> Checkout(CheckoutModel model);
         string GetUserId();
     }
 }
