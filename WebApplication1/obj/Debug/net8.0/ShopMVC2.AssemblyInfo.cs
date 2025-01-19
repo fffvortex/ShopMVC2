@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShopMVC2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6d02913d53f1759cedaae34428a568ef5811f9b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28beff87bd52df9a74f594b16174b50549802810")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShopMVC2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShopMVC2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

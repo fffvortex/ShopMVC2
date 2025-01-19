@@ -1,0 +1,88 @@
+﻿@model IEnumerable<Order>
+@{
+    ViewData["Title"] = "AllOrders";
+}
+
+<div style="width: 100%; text-align:center;">
+    @if (Model != null && Model.Count() > 0)
+    {
+        <h4 style="text-align:center;margin-block: 1rem;">Orders</h4>
+        <table class="table table-striped table-hover table-orders table-responsive table-sm">
+            <tr>
+                <th>Id | Date | Name</th>
+                <th>Email | Phone</th>
+                <th>Address</th>
+                <th>Payment | Order Status</th>
+            </tr>
+            @foreach (var order in Model)
+            {
+                <tr class="tr-all-orders">
+                    <td>
+                        @order.Id
+                        <br />
+                        @order.CreatedAt.ToString("dd-MM-yyyy")
+                        <br />
+                        @order.Name
+                        <br />
+                        <button data-bs-toggle="modal" data-bs-target="#modal-@order.Id" type="button" class="btn btn-sm btn-success">Order details</button>
+                        @await Html.PartialAsync("/Views/AdminOperations/_OrderDetailModal.cshtml", new OrderDetailModel {DivId = order.Id.ToString(), OrderDetail = order.OrderDetails})
+                    </td>
+                    <td>
+                        @order.Email
+                        <br />
+                        @order.MobileNumber
+                    </td>
+                    <td style="font-size: 10px; font-weight: 300;">@order.Address</td>
+                    <td>
+                        @order.PaymentMethod | @(order.IsPaid ? "Paid" : "Not paid")
+                        <br />
+                        @order.OrderStatus.StatusTitle
+                        <br />
+                        <a style="font-size: 15px; width:8rem;" asp-action="UpdateOrderStatus" asp-route-orderId="@order.Id" class="btn btn-sm btn-outline-success">order status</a>
+                        <a style="font-size: 15px; width:8rem;" asp-action="TogglePaymentStatus" asp-route-orderId="@order.Id" class="btn btn-sm btn-outline-success">payment status</a>
+                    </td>
+                </tr>
+            }
+        </table>
+        <div class="container-sm table-orders-mobile">
+            @foreach (var order in Model)
+            {
+                <div class="row" style="border: solid 1px; border-radius: 10px; margin-block: 2rem;">
+                    <div style="border-top: none;" class="col-sm-2">
+                        OrderDate | Name
+                    </div>
+                    <div>
+                        @order.CreatedAt.ToString("dd-MM-yyyy") | @order.Name
+                    </div>
+                    <div class="col-sm-2">
+                        Email | Phone
+                    </div>
+                    <div>
+                        @order.Email | @order.MobileNumber
+                    </div>
+                    <div class="col-sm-2">
+                        Address
+                    </div>
+                    <div style="height:4.7rem;word-break: break-all; font-size: 11px;">
+                        @order.Address
+                    </div>
+                    <div class="col-sm-2">
+                        Payment | Order Status
+                    </div>
+                    <div>
+                        @order.PaymentMethod | @(order.IsPaid ? "Paid" : "Not paid") | @order.OrderStatus.StatusTitle
+                    </div>
+                    <div style="display: flex; justify-content: space-between;" class="col-sm-2">
+                        <a style="font-size: 11px;margin-block: 1rem; width: 7rem;" asp-action="UpdateOrderStatus" asp-route-orderId="@order.Id" class="btn btn-sm btn-outline-success">order status</a>
+                        <button data-bs-toggle="modal" data-bs-target="#modal-@order.Id" style="font-size: 14px;margin-block: 1rem;" type="button" class="btn btn-sm btn-success">Order details</button>
+                        <a style="font-size: 11px;margin-block: 1rem; width: 7rem;" asp-action="TogglePaymentStatus" asp-route-orderId="@order.Id" class="btn btn-sm btn-outline-success">payment status</a>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <h4 style="text-align:center;margin-block: 1rem;">No orders</h4>
+    }
+</div>

@@ -36,6 +36,12 @@
                         <li class="nav-item">
                             <a class="nav-link" asp-controller="Home" asp-action="Products">Products</a>
                         </li>
+                        @if (User.IsInRole(ShopMVC2.Constants.Roles.Admin.ToString()))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="AdminOperations" asp-action="AllOrders">Orders</a>
+                            </li>
+                        }
                     </ul>
                 </div>
             </div>

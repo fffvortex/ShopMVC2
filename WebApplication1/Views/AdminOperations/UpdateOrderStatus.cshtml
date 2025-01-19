@@ -1,0 +1,24 @@
+﻿@model UpdateOrderStatusModel
+@{
+    ViewData["Title"] = "UpdatePaymentStatus";
+}
+
+<h1>UpdateOrderStatus</h1>
+
+<a asp-action="AllOrders">back</a>
+<form asp-action="UpdateOrderStatus">
+    <input type="hidden" asp-for="OrderId" />
+    <div>
+        <select class="form-control" asp-for="OrderStatusId" asp-items="@Model.OrderStatusList">
+            <option value="">select order status</option>
+            <span class="text-danger" asp-validation-for="OrderStatusId"></span>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-success">update</button>
+
+    @if (TempData["ChangeOrderStatus"] != null){
+        <div class="text-info my-2">
+            @TempData["ChangeOrderStatus"]
+        </div>
+    }
+</form>

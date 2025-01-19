@@ -194,7 +194,9 @@ select{
     background-image: url(../img/topdark.jpg);
     background-size: cover;
 }
-
+.modal-backdrop {
+    z-index: -1;
+}
 i {
     filter: drop-shadow(0px 0px 1px #000000);
 }
@@ -204,6 +206,35 @@ i {
 .large-collapse {
     display: none;
 }
+.table-orders {
+    width: 100%;
+    font-size: 10px;
+    margin-inline: 0;
+}
+.tr-all-orders {
+    word-break: break-all;
+}
+    .tr-all-orders td {
+        min-width: 20ch;
+    }
+main{
+    text-align: center;
+    align-items: center;
+}
+.table-orders-mobile{
+    display: none;
+}
+.col-sm-2{
+    border-top: solid 0.4px;
+}
+@media(max-width: 538px) {
+    .table-orders{
+        display: none;
+    }
+    .table-orders-mobile{
+        display: block;
+    }
+}
 @media(min-width:992px) {
     .large-collapse{
         display: block;
@@ -211,5 +242,8 @@ i {
     }
     .small-collapse{
         display:none;
+    }
+    .table-orders {
+        font-size: small;
     }
 }
