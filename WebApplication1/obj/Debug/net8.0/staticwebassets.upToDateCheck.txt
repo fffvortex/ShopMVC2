@@ -1,6 +1,7 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\img\Ada.webp
+wwwroot\img\allOrders.png
 wwwroot\img\Ariel.webp
 wwwroot\img\Arthur.webp
 wwwroot\img\Astrid.jpg
@@ -8,6 +9,7 @@ wwwroot\img\Bertie.webp
 wwwroot\img\Big Ken.webp
 wwwroot\img\Bridget.webp
 wwwroot\img\Carl.webp
+wwwroot\img\cod.png
 wwwroot\img\David.webp
 wwwroot\img\Davina.webp
 wwwroot\img\Demi.webp
@@ -53,6 +55,7 @@ wwwroot\img\Nicolau.webp
 wwwroot\img\No_Picture.jpg
 wwwroot\img\Noah.webp
 wwwroot\img\Oksana.webp
+wwwroot\img\online.png
 wwwroot\img\Oscar.webp
 wwwroot\img\Otto.webp
 wwwroot\img\Pascal.webp

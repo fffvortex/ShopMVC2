@@ -309,6 +309,14 @@
       "PackagePath": "staticwebassets\\img\\Zach.webp"
     },
     {
+      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\allOrders.png",
+      "PackagePath": "staticwebassets\\img\\allOrders.png"
+    },
+    {
+      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\cod.png",
+      "PackagePath": "staticwebassets\\img\\cod.png"
+    },
+    {
       "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\empty-cart.png",
       "PackagePath": "staticwebassets\\img\\empty-cart.png"
     },
@@ -331,6 +339,10 @@
     {
       "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\icons8-shop-48.png",
       "PackagePath": "staticwebassets\\img\\icons8-shop-48.png"
+    },
+    {
+      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\online.png",
+      "PackagePath": "staticwebassets\\img\\online.png"
     },
     {
       "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\slide1.jpg",

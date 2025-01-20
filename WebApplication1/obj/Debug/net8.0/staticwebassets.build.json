@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "y5jr7XRBKHZLbFmn3sBwGa/kF+4HtcF4p++pKFftxCM=",
+  "Hash": "LsNCeoD+b4cnPELDha3tyhUwM/09MTiJyht9skpx77g=",
   "Source": "ShopMVC2",
   "BasePath": "_content/ShopMVC2",
   "Mode": "Default",
@@ -1333,8 +1333,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "4lovqvnx7p",
-      "Integrity": "OHQm0SxQDRFeV8EoO9kuCNaCrcMSGDehoLMpI0d7F0k=",
+      "Fingerprint": "9mcxhxsp7p",
+      "Integrity": "IZNvH3lq04kYydwKFx8E8Gdzwe/yMq/cEn0EPA2l+n8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1380,6 +1380,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Ada.webp"
+    },
+    {
+      "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\allOrders.png",
+      "SourceId": "ShopMVC2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/ShopMVC2",
+      "RelativePath": "img/allOrders#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p9jfoaeetw",
+      "Integrity": "sxAs8qMfTT7+KFMSzTE6LKa3q6vbxMs5OmcU31YOJuQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\allOrders.png"
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Ariel.webp",
@@ -1527,6 +1548,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Carl.webp"
+    },
+    {
+      "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\cod.png",
+      "SourceId": "ShopMVC2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/ShopMVC2",
+      "RelativePath": "img/cod#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dcuqlvrim7",
+      "Integrity": "HV3g3FCwVJUItgJaPZYctcHN93Qoeri34c67MRcjRAI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\cod.png"
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\David.webp",
@@ -2472,6 +2514,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Oksana.webp"
+    },
+    {
+      "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\online.png",
+      "SourceId": "ShopMVC2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/ShopMVC2",
+      "RelativePath": "img/online#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "una8c9i75p",
+      "Integrity": "BuiqbViH3zb9WgGHG2fyyLRnegrQPKqQl4knznL4A/0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\online.png"
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Oscar.webp",
@@ -4429,7 +4492,7 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.4lovqvnx7p.css",
+      "Route": "css/site.9mcxhxsp7p.css",
       "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4439,7 +4502,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4249"
+          "Value": "4448"
         },
         {
           "Name": "Content-Type",
@@ -4447,11 +4510,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OHQm0SxQDRFeV8EoO9kuCNaCrcMSGDehoLMpI0d7F0k=\""
+          "Value": "\"IZNvH3lq04kYydwKFx8E8Gdzwe/yMq/cEn0EPA2l+n8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 19 Jan 2025 13:36:52 GMT"
+          "Value": "Mon, 20 Jan 2025 09:22:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4461,7 +4524,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4lovqvnx7p"
+          "Value": "9mcxhxsp7p"
         },
         {
           "Name": "label",
@@ -4469,7 +4532,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-OHQm0SxQDRFeV8EoO9kuCNaCrcMSGDehoLMpI0d7F0k="
+          "Value": "sha256-IZNvH3lq04kYydwKFx8E8Gdzwe/yMq/cEn0EPA2l+n8="
         }
       ]
     },
@@ -4484,7 +4547,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4249"
+          "Value": "4448"
         },
         {
           "Name": "Content-Type",
@@ -4492,11 +4555,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OHQm0SxQDRFeV8EoO9kuCNaCrcMSGDehoLMpI0d7F0k=\""
+          "Value": "\"IZNvH3lq04kYydwKFx8E8Gdzwe/yMq/cEn0EPA2l+n8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 19 Jan 2025 13:36:52 GMT"
+          "Value": "Mon, 20 Jan 2025 09:22:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4506,7 +4569,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-OHQm0SxQDRFeV8EoO9kuCNaCrcMSGDehoLMpI0d7F0k="
+          "Value": "sha256-IZNvH3lq04kYydwKFx8E8Gdzwe/yMq/cEn0EPA2l+n8="
         }
       ]
     },
@@ -6895,6 +6958,88 @@
       ]
     },
     {
+      "Route": "img/allOrders.p9jfoaeetw.png",
+      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\allOrders.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "597"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sxAs8qMfTT7+KFMSzTE6LKa3q6vbxMs5OmcU31YOJuQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 Jan 2025 15:11:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p9jfoaeetw"
+        },
+        {
+          "Name": "label",
+          "Value": "img/allOrders.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sxAs8qMfTT7+KFMSzTE6LKa3q6vbxMs5OmcU31YOJuQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/allOrders.png",
+      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\allOrders.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "597"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sxAs8qMfTT7+KFMSzTE6LKa3q6vbxMs5OmcU31YOJuQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 Jan 2025 15:11:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sxAs8qMfTT7+KFMSzTE6LKa3q6vbxMs5OmcU31YOJuQ="
+        }
+      ]
+    },
+    {
       "Route": "img/Ariel.ka7sg5zfs7.webp",
       "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Ariel.webp",
       "Selectors": [],
@@ -7465,6 +7610,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-ymsV8VUbF5O21G8KIHsdPuwivgKA7gZZua1sh8Jrbyc="
+        }
+      ]
+    },
+    {
+      "Route": "img/cod.dcuqlvrim7.png",
+      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\cod.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "347"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HV3g3FCwVJUItgJaPZYctcHN93Qoeri34c67MRcjRAI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 20 Jan 2025 10:05:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dcuqlvrim7"
+        },
+        {
+          "Name": "label",
+          "Value": "img/cod.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HV3g3FCwVJUItgJaPZYctcHN93Qoeri34c67MRcjRAI="
+        }
+      ]
+    },
+    {
+      "Route": "img/cod.png",
+      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\cod.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "347"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HV3g3FCwVJUItgJaPZYctcHN93Qoeri34c67MRcjRAI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 20 Jan 2025 10:05:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HV3g3FCwVJUItgJaPZYctcHN93Qoeri34c67MRcjRAI="
         }
       ]
     },
@@ -11155,6 +11382,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-aa3Ck+vKGe7pQ81Ml9HODF27tdqz+ek8+CYQKkrfF10="
+        }
+      ]
+    },
+    {
+      "Route": "img/online.png",
+      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\online.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "476"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BuiqbViH3zb9WgGHG2fyyLRnegrQPKqQl4knznL4A/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 20 Jan 2025 10:04:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BuiqbViH3zb9WgGHG2fyyLRnegrQPKqQl4knznL4A/0="
+        }
+      ]
+    },
+    {
+      "Route": "img/online.una8c9i75p.png",
+      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\online.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "476"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BuiqbViH3zb9WgGHG2fyyLRnegrQPKqQl4knznL4A/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 20 Jan 2025 10:04:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "una8c9i75p"
+        },
+        {
+          "Name": "label",
+          "Value": "img/online.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BuiqbViH3zb9WgGHG2fyyLRnegrQPKqQl4knznL4A/0="
         }
       ]
     },

@@ -227,6 +227,11 @@ main{
 .col-sm-2{
     border-top: solid 0.4px;
 }
+.modal-content {
+    -webkit-box-shadow: 0px 0px 12px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 12px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 12px 10px rgba(0, 0, 0, 0.5);
+}
 @media(max-width: 538px) {
     .table-orders{
         display: none;

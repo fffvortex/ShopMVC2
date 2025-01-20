@@ -3,22 +3,29 @@
     ViewData["Title"] = "UpdatePaymentStatus";
 }
 
-<h1>UpdateOrderStatus</h1>
+<h1>Update Order #@Model.OrderId Status</h1>
 
-<a asp-action="AllOrders">back</a>
+<a asp-action="AllOrders"><img src="/img/allOrders.png" />back to orders</a>
 <form asp-action="UpdateOrderStatus">
     <input type="hidden" asp-for="OrderId" />
     <div>
-        <select class="form-control" asp-for="OrderStatusId" asp-items="@Model.OrderStatusList">
+        <select class="form-control" style="text-align: center; margin-block: 2rem;" asp-for="OrderStatusId" asp-items="@Model.OrderStatusList">
             <option value="">select order status</option>
-            <span class="text-danger" asp-validation-for="OrderStatusId"></span>
         </select>
+        <span class="text-danger" asp-validation-for="OrderStatusId"></span>
     </div>
     <button type="submit" class="btn btn-success">update</button>
-
     @if (TempData["ChangeOrderStatus"] != null){
-        <div class="text-info my-2">
-            @TempData["ChangeOrderStatus"]
-        </div>
+        @if (TempData["ChangeOrderStatus"].ToString() == "Update successfully")
+        {
+            <div class="text-success my-2">
+                @TempData["ChangeOrderStatus"]
+            </div>
+        }
+        else{
+            <div class="text-danger my-2">
+                @TempData["ChangeOrderStatus"]
+            </div>
+        }
     }
 </form>
