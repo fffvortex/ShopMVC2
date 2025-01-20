@@ -1,0 +1,19 @@
+﻿@model StockDTO
+@{
+    ViewData["Title"] = "ManageStock";
+}
+
+<a class="btn btn-outline-success" asp-action="Stocks" asp-controller="Stock">Back</a>
+
+<form asp-action="ManageStock">
+    <input type="hidden" asp-for="ProductId" />
+
+    <div class="my-2">
+        <label>Quantity</label>
+        <input style="text-align: center; max-width: 20rem; margin-inline: auto;" class="form-control" type="number" asp-for="Quantity" />
+        <span asp-validation-for="Quantity" class="text-danger"></span>
+    </div>
+    <div class="my-2">
+        <button type="submit" class="btn btn-success" >Update</button>
+    </div>
+</form>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LsNCeoD+b4cnPELDha3tyhUwM/09MTiJyht9skpx77g=",
+  "Hash": "+AfPLYETMunNXFx9I5iMLr9uuLcenzIkZzxPm4hRiS0=",
   "Source": "ShopMVC2",
   "BasePath": "_content/ShopMVC2",
   "Mode": "Default",
@@ -1634,6 +1634,27 @@
       "OriginalItemSpec": "wwwroot\\img\\Demi.webp"
     },
     {
+      "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\down.png",
+      "SourceId": "ShopMVC2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/ShopMVC2",
+      "RelativePath": "img/down#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gxitij1l4o",
+      "Integrity": "FNPqC/RBaR86PhxWbLs8+McjdgDaxr++0sFon6O+U3g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\down.png"
+    },
+    {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Dylan.webp",
       "SourceId": "ShopMVC2",
       "SourceType": "Discovered",
@@ -3102,6 +3123,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\toplight.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\up.png",
+      "SourceId": "ShopMVC2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/ShopMVC2",
+      "RelativePath": "img/up#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8w8bqlo85u",
+      "Integrity": "yE/6QWNplipELR9seLiJ03Y6uBXXql2wEPv4mOdD92E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\up.png"
     },
     {
       "Identity": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Val.webp",
@@ -7938,6 +7980,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-ZSZ3WqJvR4+p2sfC3jVz/C7MqcmV1AnKLjsyu1PChr0="
+        }
+      ]
+    },
+    {
+      "Route": "img/down.gxitij1l4o.png",
+      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\down.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "889"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FNPqC/RBaR86PhxWbLs8+McjdgDaxr++0sFon6O+U3g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 20 Jan 2025 14:13:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gxitij1l4o"
+        },
+        {
+          "Name": "label",
+          "Value": "img/down.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FNPqC/RBaR86PhxWbLs8+McjdgDaxr++0sFon6O+U3g="
+        }
+      ]
+    },
+    {
+      "Route": "img/down.png",
+      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\down.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "889"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FNPqC/RBaR86PhxWbLs8+McjdgDaxr++0sFon6O+U3g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 20 Jan 2025 14:13:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FNPqC/RBaR86PhxWbLs8+McjdgDaxr++0sFon6O+U3g="
         }
       ]
     },
@@ -13678,6 +13802,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-wGJdYfLRtJBMsAM/9Q2RpqgVmKKvklAMp5iahLaosi8="
+        }
+      ]
+    },
+    {
+      "Route": "img/up.8w8bqlo85u.png",
+      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\up.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "861"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yE/6QWNplipELR9seLiJ03Y6uBXXql2wEPv4mOdD92E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 20 Jan 2025 14:13:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8w8bqlo85u"
+        },
+        {
+          "Name": "label",
+          "Value": "img/up.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yE/6QWNplipELR9seLiJ03Y6uBXXql2wEPv4mOdD92E="
+        }
+      ]
+    },
+    {
+      "Route": "img/up.png",
+      "AssetFile": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\up.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "861"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yE/6QWNplipELR9seLiJ03Y6uBXXql2wEPv4mOdD92E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 20 Jan 2025 14:13:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yE/6QWNplipELR9seLiJ03Y6uBXXql2wEPv4mOdD92E="
         }
       ]
     },

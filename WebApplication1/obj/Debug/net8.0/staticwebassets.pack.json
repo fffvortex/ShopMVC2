@@ -317,6 +317,10 @@
       "PackagePath": "staticwebassets\\img\\cod.png"
     },
     {
+      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\down.png",
+      "PackagePath": "staticwebassets\\img\\down.png"
+    },
+    {
       "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\empty-cart.png",
       "PackagePath": "staticwebassets\\img\\empty-cart.png"
     },
@@ -363,6 +367,10 @@
     {
       "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\toplight.jpg",
       "PackagePath": "staticwebassets\\img\\toplight.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\up.png",
+      "PackagePath": "staticwebassets\\img\\up.png"
     },
     {
       "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\js\\layout.js",

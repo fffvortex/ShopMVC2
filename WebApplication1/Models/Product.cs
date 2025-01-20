@@ -27,7 +27,12 @@ namespace ShopMVC2.Models
 
         public List<CartDetail> CartDetails { get; set; }
 
+        public Stock Stock { get; set; }
+
         [NotMapped]
         public string ProductTypeTitle { get; set; }
+
+        [NotMapped]
+        public int Quantity { get; set; }
     }
 }

@@ -24,7 +24,7 @@ namespace ShopMVC2.Repositories
             {
                 if (string.IsNullOrEmpty(userId))
                 {
-                    throw new Exception("User is not logged in");
+                    throw new UnauthorizedAccessException("User is not logged in");
                 }
 
                 var cart = await GetCart(userId);
@@ -75,19 +75,19 @@ namespace ShopMVC2.Repositories
             {
                 if (string.IsNullOrEmpty(userId))
                 {
-                    throw new Exception("User is not logged in");
+                    throw new UnauthorizedAccessException("User is not logged in");
                 }
                 var cart = await GetCart(userId);
                 if (cart == null)
                 {
-                    throw new Exception($"Could not find cart {userId}");
+                    throw new InvalidOperationException($"Could not find cart {userId}");
                 }
 
                 var cartProduct = _context.CartDetails
                     .FirstOrDefault(c => c.ShoppingCartId == cart.Id && c.ProductId == productId);
                 if (cartProduct == null)
                 {
-                    throw new Exception("No proucts in cart");
+                    throw new InvalidOperationException("No proucts in cart");
                 }
                 else if (cartProduct.Quantity == 1)
                 {
@@ -114,14 +114,16 @@ namespace ShopMVC2.Repositories
             var userId = GetUserId();
             if (string.IsNullOrEmpty(userId))
             {
-                throw new Exception("Invalid userId");
+                throw new InvalidOperationException("Invalid userId");
             }
             var shoppingCart = await _context.ShoppingCarts
-                .Include(a => a.CartDetails)
-                .ThenInclude(a => a.Product)
-                .ThenInclude(a => a.ProductType)
-                .Where(a => a.UserId == userId)
-                .AsNoTracking()
+                .Include(sc => sc.CartDetails)
+                .ThenInclude(cd => cd.Product)
+                .ThenInclude(p => p.Stock)
+                .Include(sc => sc.CartDetails)
+                .ThenInclude(cd => cd.Product)
+                .ThenInclude(p => p.ProductType)
+                .Where(sc => sc.UserId == userId)
                 .FirstOrDefaultAsync();
             return shoppingCart;
         }
@@ -134,13 +136,13 @@ namespace ShopMVC2.Repositories
                 var userId = GetUserId();
                 if (string.IsNullOrEmpty(userId))
                 {
-                    throw new Exception("User is not logged in");
+                    throw new UnauthorizedAccessException("User is not logged in");
                 }
                 var cart = await GetCart(userId);
 
                 if(cart == null)
                 {
-                    throw new Exception("Invalid cart");
+                    throw new InvalidOperationException("Invalid cart");
                 }
                 var cartDetail = await _context.CartDetails
                     .Where(c => c.ShoppingCartId == cart.Id)
@@ -148,13 +150,13 @@ namespace ShopMVC2.Repositories
 
                 if(cartDetail.Count == 0)
                 {
-                    throw new Exception("Cart is empty");
+                    throw new InvalidOperationException("Cart is empty");
                 }
                 var pendingRecord = await _context.OrderStatuses
                     .FirstOrDefaultAsync(s => s.StatusTitle == "Pending");
                 if(pendingRecord == null)
                 {
-                    throw new Exception("Order status does not have Pending status");
+                    throw new InvalidOperationException("Order status does not have Pending status");
                 }
                 var order = new Order
                 {
@@ -170,7 +172,7 @@ namespace ShopMVC2.Repositories
                 };
                 _context.Orders.Add(order);
                 _context.SaveChanges();
-                foreach(var item in cartDetail)
+                foreach (var item in cartDetail)
                 {
                     var orderDetail = new OrderDetail
                     {
@@ -180,6 +182,18 @@ namespace ShopMVC2.Repositories
                         UnitPrice = item.UnitPrice
                     };
                     _context.OrderDetails.Add(orderDetail);
+
+                    var stock = await _context.Stocks
+                        .FirstOrDefaultAsync(s => s.ProductId == item.ProductId);
+                    if(stock == null)
+                    {
+                        throw new InvalidOperationException("Stock is null");
+                    }
+                    if(item.Quantity > stock.Quantity)
+                    {
+                        throw new InvalidOperationException($"Only {stock.Quantity} item(s) are available in the stock");
+                    }
+                    stock.Quantity -= item.Quantity;
                 }
                 await _context.SaveChangesAsync();
 

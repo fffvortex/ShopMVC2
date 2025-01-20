@@ -26,6 +26,10 @@ namespace ShopMVC2.Repositories
             var products = await (from product in _context.Products
                                   join type in _context.ProductTypes
                                   on product.ProductTypeId equals type.Id
+                                  join stock in _context.Stocks
+                                  on product.Id equals stock.ProductId
+                                  into product_stock 
+                                  from productWithStock in product_stock.DefaultIfEmpty()
                                   where string.IsNullOrEmpty(search) || (product != null && product.ProductTitle.ToLower().Replace(" ", "").Contains(search))
                                   select new Product
                                   {
@@ -35,7 +39,8 @@ namespace ShopMVC2.Repositories
                                       ProductTitle = product.ProductTitle,
                                       ProductTypeId = product.ProductTypeId,
                                       Price = product.Price,
-                                      ProductTypeTitle = type.TypeTitle
+                                      ProductTypeTitle = type.TypeTitle,
+                                      Quantity = productWithStock == null ? 0 : productWithStock.Quantity
                                   }).AsNoTracking().ToListAsync();
             if (productTypeId > 0)
             {
