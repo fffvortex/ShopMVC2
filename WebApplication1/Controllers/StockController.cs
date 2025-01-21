@@ -46,5 +46,9 @@ namespace ShopMVC2.Controllers
             }
             return RedirectToAction(nameof(Stocks));
         }
+        public async Task<int> GetQuantityInStockByProductId(int productId)
+        {
+            return await _stockRepository.GetQuantityInStockByProductId(productId);
+        }
     }
 }

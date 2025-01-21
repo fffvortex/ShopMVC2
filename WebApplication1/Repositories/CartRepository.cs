@@ -109,6 +109,20 @@ namespace ShopMVC2.Repositories
 
         }
 
+        public async Task<int> GetProductQuantityInCartByProductId(int productId)
+        {
+            string userId = GetUserId();
+            if (string.IsNullOrEmpty(userId))
+            {
+                throw new UnauthorizedAccessException("User is not logged in");
+            }
+            var shoppingCart = await GetCart(userId);
+            var count = await _context.CartDetails
+                .Where(cd => cd.ShoppingCartId == shoppingCart.Id && cd.ProductId == productId)
+                .FirstOrDefaultAsync();
+            return count == null ? 0 : count.Quantity;
+        }
+
         public async Task<ShoppingCart> GetUserCart()
         {
             var userId = GetUserId();

@@ -14,22 +14,34 @@
             {
                 <a href="@Url.Action("IndexSingle","Home", new {id = product.Id})">
                     <img src="/img/No_Picture.jpg" class="card-img-top" alt="@product.ProductTitle">
+                    <span class="badge text-bg-warning badge-quantity">
+                        @product.Quantity
+                    </span>
                 </a>
             }
             else
             {
                 <a href="@Url.Action("IndexSingle","Home", new {id = product.Id})">
                     <img src="/img/@product.ProductImage" class="card-img-top" alt="@product.ProductTitle">
+                    @if (product.Quantity > 0)
+                    {
+                        <span class="badge text-bg-warning badge-quantity">
+                            @product.Quantity
+                        </span>
+                    }
+                    else
+                    {
+                        <span class="badge text-bg-danger badge-quantity">
+                            @product.Quantity
+                        </span>
+                    }
                 </a>
             }
             <div class="card-body">
                 <h5 class="card-title">@product.ProductTitle</h5>
                 <p class="card-text">@product.ProductTypeTitle </p>
                 <p class="card-text">@product.Price £</p>
-                <p>
-                    @product.Quantity
-                </p>
-                @if(product.Quantity > 0)
+                @if (product.Quantity > 0)
                 {
                     <button onclick="add(@product.Id)" type="button" class="btn btn-success align-content-center">Add to cart</button>
                 }
@@ -50,12 +62,21 @@
                 window.location.href = "/Identity/Account/Login"
             }
             try{
-                var response = await fetch(`/Cart/AddProduct?productId=${productId}`)
-                if(response.status === 200){
-                    var result = await response.json()
-                    var cartCountEl = document.getElementById('cartCount')
-                    cartCountEl.innerHTML = result
-                }
+                    var quantityInCartRes = await fetch(`/Cart/GetProductQuantityInCartByProductId?productId=${productId}`)
+                    var quantityRes = await fetch(`/Stock/GetQuantityInStockByProductId?productId=${productId}`)
+                    quantityInStock = await quantityRes.json()
+                    quantityInCart = await quantityInCartRes.json()
+                    console.log("in cart: " , quantityInCart, "in stock: ", quantityInStock)
+                    if(quantityInCart < quantityInStock)
+                    {
+                        var response = await fetch(`/Cart/AddProduct?productId=${productId}`)
+                        if(response.status === 200)
+                        {
+                            var result = await response.json()
+                            var cartCountEl = document.getElementById('cartCount')
+                            cartCountEl.innerHTML = result
+                        }
+                    }
             }
             catch(err){
                 console.log(err)

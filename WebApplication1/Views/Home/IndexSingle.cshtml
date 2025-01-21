@@ -21,6 +21,14 @@
             <h4 style="text-align:center;">@Model.ProductTypeTitle</h4>
             <div style="border-top: solid 1px gray; width:80%; margin-inline:auto;"></div>
             <br />
+            @if(Model.Quantity > 0)
+            {
+                <span class="badge text-bg-warning">@Model.Quantity in stock</span>
+            }
+            else
+            {
+                <span class="badge text-bg-danger">@Model.Quantity in stock</span>
+            }
             <div class="collapse large-collapse" id="collapseExample">
                 <div class="card card-body">
                     <p>@Model.Description</p>
@@ -32,7 +40,14 @@
                 <div class="price-icon">
                     <h3 style="text-align:center;">@Model.Price £</h3>
                 </div>
-                <button onclick="add(@Model.Id)" type="button" class="btn btn-success align-content-center">Add to cart</button>
+                @if(Model.Quantity > 0)
+                {
+                    <button onclick="add(@Model.Id)" type="button" class="btn btn-success align-content-center">Add to cart</button>
+                }
+                else
+                {
+                    <button disabled class="btn btn-outline-danger">Out of stock</button>
+                }
                 <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                     About @Model.ProductTitle
                 </button>
@@ -60,12 +75,22 @@
                 window.location.href = "/Identity/Account/Login"
             }
             try{
-                var response = await fetch(`/Cart/AddProduct?productId=${productId}`)
-                if(response.status === 200){
-                    var result = await response.json()
-                    var cartCountEl = document.getElementById('cartCount')
-                    cartCountEl.innerHTML = result
-                }
+                    var quantityInCartRes = await fetch(`/Cart/GetProductQuantityInCartByProductId?productId=${productId}`)
+                    var quantityRes = await fetch(`/Stock/GetQuantityInStockByProductId?productId=${productId}`)
+                    quantityInStock = await quantityRes.json()
+                    quantityInCart = await quantityInCartRes.json()
+
+                    if(quantityInCart < quantityInStock)
+                    {
+                        var response = await fetch(`/Cart/AddProduct?productId=${productId}`)
+                        if(response.status === 200)
+                        {
+                            var result = await response.json()
+                            var cartCountEl = document.getElementById('cartCount')
+                            cartCountEl.innerHTML = result
+                        }
+                        console.log("in cart: " , quantityInCart+1, "in stock: ", quantityInStock)
+                    }
             }
             catch(err){
                 console.log(err)

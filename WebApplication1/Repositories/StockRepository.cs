@@ -14,6 +14,13 @@ namespace ShopMVC2.Repositories
             => await _applicationDbContext.Stocks
             .FirstOrDefaultAsync(s => s.ProductId == productId);
 
+        public async Task<int> GetQuantityInStockByProductId(int productId)
+        {
+            var stock = await _applicationDbContext.Stocks.FirstOrDefaultAsync(s => s.ProductId == productId);
+            int quantity = stock == null ? 0 : stock.Quantity;
+            return quantity;
+        }
+
         public async Task<IEnumerable<StockDisplayModel>> GetStocks(string search = "", int id = 0, string sortByQuantity = "")
         {
             var stocks = await (from product in _applicationDbContext.Products
@@ -33,7 +40,7 @@ namespace ShopMVC2.Repositories
             {
                 stocks = stocks.Where(s => s.ProductId == id).ToList();
             }
-            if (sortByQuantity == "quntity")
+            if (sortByQuantity == "quantity")
             {
                 stocks = stocks.OrderBy(s => s.Quantity).ToList();
             }

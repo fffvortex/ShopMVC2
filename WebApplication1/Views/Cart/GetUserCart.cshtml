@@ -40,16 +40,15 @@
                     <td><a href="/Cart/RemoveProduct?productId=@cartItem.ProductId" class="btn btn-sm btn-danger">-</a></td>
 
 
-                    <td>@cartItem.Quantity</td>
+                    <td><span class="badge text-bg-warning">@cartItem.Quantity</span></td>
                     <td>
                         @if (cartItem.Quantity < cartItem.Product.Stock.Quantity)
                         {
                             <a href="/Cart/AddProduct?productId=@cartItem.ProductId&&redirect=1" class="btn btn-sm btn-success">+</a>
-
                         }
                         else
                         {
-                            <a class="btn btn-sm btn-outline-danger"><p style="font-size: 11px;">out of stock</p></a>
+                            <button class="btn btn-sm btn-outline-danger" disabled>+</button>
                         }
                     </td>
                 </tr>

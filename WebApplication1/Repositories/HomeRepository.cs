@@ -62,6 +62,8 @@ namespace ShopMVC2.Repositories
         {
             var productById = await (from product in _context.Products
                                      join types in _context.ProductTypes on product.ProductTypeId equals types.Id
+                                     join stock in _context.Stocks
+                                     on product.Id equals stock.ProductId
                                      where product.Id == id
                                      select new Product
                                      {
@@ -71,8 +73,9 @@ namespace ShopMVC2.Repositories
                                          ProductTitle = product.ProductTitle,
                                          ProductTypeId = product.ProductTypeId,
                                          Price = product.Price,
-                                         ProductTypeTitle = types.TypeTitle
-                                     }).AsNoTracking().FirstOrDefaultAsync();
+                                         ProductTypeTitle = types.TypeTitle,
+                                         Quantity = stock.Quantity
+                                     }).FirstOrDefaultAsync();
             return productById;
         }
     }

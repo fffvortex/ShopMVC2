@@ -66,5 +66,10 @@ namespace ShopMVC2.Controllers
         {
             return View();
         }
+
+        public async Task<int> GetProductQuantityInCartByProductId(int productId)
+        {
+            return await _cartRepository.GetProductQuantityInCartByProductId(productId);
+        }
     }
 }
