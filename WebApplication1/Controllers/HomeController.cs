@@ -32,7 +32,6 @@ namespace WebApplication1.Controllers
 
         public async Task<IActionResult> IndexSingle(int id)
         {
-            ViewBag.Id = id;
             var product = await _homeRepository.GetProductById(id);
             return View(product);
         }

@@ -13,7 +13,7 @@
             @if (string.IsNullOrWhiteSpace(@product.ProductImage))
             {
                 <a href="@Url.Action("IndexSingle","Home", new {id = product.Id})">
-                    <img src="/img/No_Picture.jpg" class="card-img-top" alt="@product.ProductTitle">
+                    <img style="height: 19rem;" src="/img/No_Picture.jpg" class="card-img-top" alt="@product.ProductTitle">
                     <span class="badge text-bg-warning badge-quantity">
                         @product.Quantity
                     </span>

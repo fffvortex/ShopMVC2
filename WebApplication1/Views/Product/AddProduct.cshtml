@@ -1,0 +1,36 @@
+﻿@model ProductDTO
+
+<div style="width: 70%; margin-inline: auto;">
+    <a class="btn btn-outline-success" asp-action="GetAllProducts" asp-controller="Product">Back</a>
+    <form asp-action="AddProduct" enctype="multipart/form-data">
+        <div class="my-2">
+            <input class="form-control" type="text" asp-for="ProductTitle" />
+            <span asp-validation-for="ProductTitle" class="text-danger"></span>
+        </div>
+
+        <div class="my-2">
+            <textarea asp-for="Description" class="form-control"></textarea>
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+
+        <div class="my-2">
+            <select class="form-control" asp-for="ProductTypeId" asp-items="Model.ProductTypeList">
+                <option value="">Select type</option>
+            </select>
+            <span asp-validation-for="ProductTypeId" class="text-danger"></span>
+        </div>
+
+        <div class="my-2">
+            <input class="form-control" type="number" asp-for="Price" />
+            <span asp-validation-for="Price" class="text-danger"></span>
+        </div>
+
+        <div class="my-2">
+            <input type="file" class="form-control" asp-for="ImageFile"/>
+        </div>
+
+        <div class="my-2">
+            <button type="submit" class="btn btn-success">Add product</button>
+        </div>
+    </form>
+</div>

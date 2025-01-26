@@ -13,300 +13,16 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Ada.webp",
-      "PackagePath": "staticwebassets\\img\\Ada.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Ariel.webp",
-      "PackagePath": "staticwebassets\\img\\Ariel.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Arthur.webp",
-      "PackagePath": "staticwebassets\\img\\Arthur.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Astrid.jpg",
-      "PackagePath": "staticwebassets\\img\\Astrid.jpg"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Bertie.webp",
-      "PackagePath": "staticwebassets\\img\\Bertie.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Big Ken.webp",
-      "PackagePath": "staticwebassets\\img\\Big Ken.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Bridget.webp",
-      "PackagePath": "staticwebassets\\img\\Bridget.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Carl.webp",
-      "PackagePath": "staticwebassets\\img\\Carl.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\David.webp",
-      "PackagePath": "staticwebassets\\img\\David.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Davina.webp",
-      "PackagePath": "staticwebassets\\img\\Davina.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Demi.webp",
-      "PackagePath": "staticwebassets\\img\\Demi.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Dylan.webp",
-      "PackagePath": "staticwebassets\\img\\Dylan.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Evie.webp",
-      "PackagePath": "staticwebassets\\img\\Evie.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Felicity.webp",
-      "PackagePath": "staticwebassets\\img\\Felicity.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Fergus.webp",
-      "PackagePath": "staticwebassets\\img\\Fergus.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Fleur.webp",
-      "PackagePath": "staticwebassets\\img\\Fleur.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Francisca.webp",
-      "PackagePath": "staticwebassets\\img\\Francisca.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Franky.webp",
-      "PackagePath": "staticwebassets\\img\\Franky.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Gabi.webp",
-      "PackagePath": "staticwebassets\\img\\Gabi.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Gus.webp",
-      "PackagePath": "staticwebassets\\img\\Gus.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Hugo in glass.webp",
-      "PackagePath": "staticwebassets\\img\\Hugo in glass.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Ian.webp",
-      "PackagePath": "staticwebassets\\img\\Ian.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Isabella.webp",
-      "PackagePath": "staticwebassets\\img\\Isabella.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Isla.webp",
-      "PackagePath": "staticwebassets\\img\\Isla.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Jethro.webp",
-      "PackagePath": "staticwebassets\\img\\Jethro.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Kelly.webp",
-      "PackagePath": "staticwebassets\\img\\Kelly.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Large succulent set.webp",
-      "PackagePath": "staticwebassets\\img\\Large succulent set.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Levi.webp",
-      "PackagePath": "staticwebassets\\img\\Levi.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Lila.webp",
-      "PackagePath": "staticwebassets\\img\\Lila.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Lionel.webp",
-      "PackagePath": "staticwebassets\\img\\Lionel.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Liv.webp",
-      "PackagePath": "staticwebassets\\img\\Liv.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Lizzie.webp",
-      "PackagePath": "staticwebassets\\img\\Lizzie.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Lucy.webp",
-      "PackagePath": "staticwebassets\\img\\Lucy.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Lyla.webp",
-      "PackagePath": "staticwebassets\\img\\Lyla.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Mabel.webp",
-      "PackagePath": "staticwebassets\\img\\Mabel.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Mandy.webp",
-      "PackagePath": "staticwebassets\\img\\Mandy.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Mica.webp",
-      "PackagePath": "staticwebassets\\img\\Mica.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Mini cactus set - ball.webp",
-      "PackagePath": "staticwebassets\\img\\Mini cactus set - ball.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Mini cactus set - tall.webp",
-      "PackagePath": "staticwebassets\\img\\Mini cactus set - tall.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Mini citrus trio.webp",
-      "PackagePath": "staticwebassets\\img\\Mini citrus trio.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Mini succulent set.webp",
-      "PackagePath": "staticwebassets\\img\\Mini succulent set.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Musa.webp",
-      "PackagePath": "staticwebassets\\img\\Musa.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Nala.webp",
-      "PackagePath": "staticwebassets\\img\\Nala.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Nicolau.webp",
-      "PackagePath": "staticwebassets\\img\\Nicolau.webp"
+      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\6009d6ff-0b85-432c-bbb7-825d74867614.jpg",
+      "PackagePath": "staticwebassets\\img\\6009d6ff-0b85-432c-bbb7-825d74867614.jpg"
     },
     {
       "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\No_Picture.jpg",
       "PackagePath": "staticwebassets\\img\\No_Picture.jpg"
     },
     {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Noah.webp",
-      "PackagePath": "staticwebassets\\img\\Noah.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Oksana.webp",
-      "PackagePath": "staticwebassets\\img\\Oksana.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Oscar.webp",
-      "PackagePath": "staticwebassets\\img\\Oscar.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Otto.webp",
-      "PackagePath": "staticwebassets\\img\\Otto.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Pascal.webp",
-      "PackagePath": "staticwebassets\\img\\Pascal.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Pedro.webp",
-      "PackagePath": "staticwebassets\\img\\Pedro.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Peggy.webp",
-      "PackagePath": "staticwebassets\\img\\Peggy.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Pele.webp",
-      "PackagePath": "staticwebassets\\img\\Pele.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Pharrell.webp",
-      "PackagePath": "staticwebassets\\img\\Pharrell.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Pippa.webp",
-      "PackagePath": "staticwebassets\\img\\Pippa.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Piña.webp",
-      "PackagePath": "staticwebassets\\img\\Piña.webp"
-    },
-    {
       "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Price.png",
       "PackagePath": "staticwebassets\\img\\Price.png"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Rachel.webp",
-      "PackagePath": "staticwebassets\\img\\Rachel.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Rapunzel.webp",
-      "PackagePath": "staticwebassets\\img\\Rapunzel.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Reggie.webp",
-      "PackagePath": "staticwebassets\\img\\Reggie.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Sharon.webp",
-      "PackagePath": "staticwebassets\\img\\Sharon.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Silvy.jpg",
-      "PackagePath": "staticwebassets\\img\\Silvy.jpg"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Skye.jpg",
-      "PackagePath": "staticwebassets\\img\\Skye.jpg"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Spike.webp",
-      "PackagePath": "staticwebassets\\img\\Spike.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Suri.webp",
-      "PackagePath": "staticwebassets\\img\\Suri.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Susie.webp",
-      "PackagePath": "staticwebassets\\img\\Susie.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Theodora.webp",
-      "PackagePath": "staticwebassets\\img\\Theodora.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Theodore.webp",
-      "PackagePath": "staticwebassets\\img\\Theodore.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Toby.webp",
-      "PackagePath": "staticwebassets\\img\\Toby.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Val.webp",
-      "PackagePath": "staticwebassets\\img\\Val.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Venus.webp",
-      "PackagePath": "staticwebassets\\img\\Venus.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Vivi.webp",
-      "PackagePath": "staticwebassets\\img\\Vivi.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Wallace.webp",
-      "PackagePath": "staticwebassets\\img\\Wallace.webp"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Zach.webp",
-      "PackagePath": "staticwebassets\\img\\Zach.webp"
     },
     {
       "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\allOrders.png",
@@ -315,6 +31,10 @@
     {
       "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\cod.png",
       "PackagePath": "staticwebassets\\img\\cod.png"
+    },
+    {
+      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\d6f38b3f-1419-4c09-9dfd-e43f06c24be9.webp",
+      "PackagePath": "staticwebassets\\img\\d6f38b3f-1419-4c09-9dfd-e43f06c24be9.webp"
     },
     {
       "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\down.png",
@@ -327,10 +47,6 @@
     {
       "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\header.jpg",
       "PackagePath": "staticwebassets\\img\\header.jpg"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\header.png",
-      "PackagePath": "staticwebassets\\img\\header.png"
     },
     {
       "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\icons8-flower-64.png",
@@ -349,24 +65,8 @@
       "PackagePath": "staticwebassets\\img\\online.png"
     },
     {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\slide1.jpg",
-      "PackagePath": "staticwebassets\\img\\slide1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\slide2.jpg",
-      "PackagePath": "staticwebassets\\img\\slide2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\slide3.jpg",
-      "PackagePath": "staticwebassets\\img\\slide3.jpg"
-    },
-    {
       "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\topdark.jpg",
       "PackagePath": "staticwebassets\\img\\topdark.jpg"
-    },
-    {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\toplight.jpg",
-      "PackagePath": "staticwebassets\\img\\toplight.jpg"
     },
     {
       "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\up.png",

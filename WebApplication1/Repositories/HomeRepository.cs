@@ -61,7 +61,8 @@ namespace ShopMVC2.Repositories
         public async Task<Product> GetProductById(int id)
         {
             var productById = await (from product in _context.Products
-                                     join types in _context.ProductTypes on product.ProductTypeId equals types.Id
+                                     join types in _context.ProductTypes 
+                                     on product.ProductTypeId equals types.Id
                                      join stock in _context.Stocks
                                      on product.Id equals stock.ProductId
                                      where product.Id == id

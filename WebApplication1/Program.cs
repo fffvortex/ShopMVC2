@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using ShopMVC2.Shared;
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("ApplicationDbContextConnection") ?? throw new InvalidOperationException("Connection string 'ApplicationDbContextConnection' not found.");
 
@@ -19,6 +20,8 @@ builder.Services.AddTransient<ICartRepository, CartRepository>();
 builder.Services.AddTransient<IUserOrderRepository, UserOrderRepository>();
 builder.Services.AddTransient<IStockRepository, StockRepository>();
 builder.Services.AddTransient<IProductTypeRepository, ProductTypeRepository>();
+builder.Services.AddTransient<IFileService, FileService>();
+builder.Services.AddTransient<IProductRepository, ProductRepository>();
 
 builder.Services.Configure<IdentityOptions>(options =>
 {
