@@ -38,11 +38,11 @@ namespace ShopMVC2.Controllers
             try
             {
                 await _stockRepository.ManageStock(stock);
-                TempData["successStock"] = "Stock is updated successfully";
+                TempData["successMessage"] = "Stock is updated successfully";
             }
             catch (Exception ex)
             {
-                TempData["errorStock"] = "Stock update is failed";
+                TempData["errorMessage"] = "Stock update is failed";
             }
             return RedirectToAction(nameof(Stocks));
         }

@@ -1,0 +1,21 @@
+﻿@model IEnumerable<ProductType>
+
+<div style="text-align: center;">
+
+    <a class="btn btn-success" asp-action="AddProductType" asp-controller="ProductType">Add more types</a>
+
+    <table class="table table-striped table-responsive my-2">
+        @foreach (var type in Model)
+        {
+            <tr>
+                <td>
+                    @type.TypeTitle id: @type.Id
+                </td>
+                <td>
+                    <a asp-action="UpdateProductType" asp-controller="ProductType" asp-route-id="@type.Id" class="btn btn-outline-success btn-sm">Edit</a>
+                    <a asp-action="DeleteProductType" asp-controller="ProductType" asp-route-id="@type.Id" class="btn btn-outline-danger btn-sm" onclick="return window.confirm('Are you sure?')">Delete</a>
+                </td>
+            </tr>
+        }
+    </table>
+</div>

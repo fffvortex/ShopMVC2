@@ -42,7 +42,10 @@
                 </div>
                 @if(Model.Quantity > 0)
                 {
-                    <button onclick="add(@Model.Id)" type="button" class="btn btn-success align-content-center">Add to cart</button>
+                    <button id="add-to-card-@Model.Id" onclick="add(@Model.Id)" type="button" class=" add-to-card btn btn-success align-content-center">Add to cart</button>
+                    <script type="text/javascript">
+
+                    </script>
                 }
                 else
                 {
@@ -65,36 +68,3 @@
         <p>@Model.Description</p>
     </div>
 </div>
-
-
-@section Scripts {
-    <script type="text/javascript">
-        async function add(productId){
-            var userNameEl = document.getElementById('username')
-            if(userNameEl == null){
-                window.location.href = "/Identity/Account/Login"
-            }
-            try{
-                    var quantityInCartRes = await fetch(`/Cart/GetProductQuantityInCartByProductId?productId=${productId}`)
-                    var quantityRes = await fetch(`/Stock/GetQuantityInStockByProductId?productId=${productId}`)
-                    quantityInStock = await quantityRes.json()
-                    quantityInCart = await quantityInCartRes.json()
-
-                    if(quantityInCart < quantityInStock)
-                    {
-                        var response = await fetch(`/Cart/AddProduct?productId=${productId}`)
-                        if(response.status === 200)
-                        {
-                            var result = await response.json()
-                            var cartCountEl = document.getElementById('cartCount')
-                            cartCountEl.innerHTML = result
-                        }
-                        console.log("in cart: " , quantityInCart+1, "in stock: ", quantityInStock)
-                    }
-            }
-            catch(err){
-                console.log(err)
-            }
-        }
-    </script>
-}

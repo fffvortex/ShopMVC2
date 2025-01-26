@@ -1,15 +1,15 @@
-﻿@if (TempData["successStock"] != null)
+﻿@if (TempData["successMessage"] != null)
 {
     <div class="alert alert-success alert-dismissible fade show" role="alert">
-        @TempData["successStock"]
+        @TempData["successMessage"]
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
 }
 
-@if (TempData["errorStock"] != null)
+@if (TempData["errorMessage"] != null)
 {
     <div class="alert alert-danger alert-dismissible fade show" role="alert">
-        @TempData["errorStock"]
+        @TempData["errorMessage"]
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
 }

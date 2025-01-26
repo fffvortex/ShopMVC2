@@ -1,0 +1,16 @@
+﻿@model ProductTypeDTO
+
+<div style="width: 50%;text-align: center;margin-inline: auto;">
+    <a asp-action="GetAllProductTypes" class="btn btn-outline-success" asp-controller="ProductType">Back</a>
+    <form asp-action="UpdateProductType">
+        <input type="hidden" asp-for="Id" />
+        <div class="my-2">
+            <input style="text-align: center;" type="text" class="form-control" asp-for="ProductTypeTitle" placeholder="type name" />
+            <span asp-validation-for="ProductTypeTitle" class="text-danger"></span>
+        </div>
+
+        <div class="my-2">
+            <button type="submit" class="btn btn-success">Update</button>
+        </div>
+    </form>
+</div>
