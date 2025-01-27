@@ -18,7 +18,7 @@ namespace ShopMVC2.Repositories
             var stock = new Stock
             {
                 ProductId = existingProduct.Id,
-                Quantity = 0
+                Quantity = product.Quantity
             };
             await _context.Stocks.AddAsync(stock);
             await _context.SaveChangesAsync();

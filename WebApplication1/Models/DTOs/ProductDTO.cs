@@ -23,5 +23,7 @@ namespace ShopMVC2.Models.DTOs
         public IFormFile? ImageFile { get; set; }
 
         public IEnumerable<SelectListItem>? ProductTypeList { get; set; }
+
+        public int Quantity { get; set; } = 0;
     }
 }

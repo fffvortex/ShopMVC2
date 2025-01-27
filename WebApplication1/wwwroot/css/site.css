@@ -247,6 +247,13 @@ main{
     outline: none !important;
     box-shadow: none !important;
 }
+.input-with-icon {
+    background: url('../img/No_Picture.jpg') center;
+    cursor: pointer;
+    height: 13rem;
+    width: 10rem;
+    margin-inline: auto;
+}
 @media(max-width: 538px) {
     .table-orders{
         display: none;

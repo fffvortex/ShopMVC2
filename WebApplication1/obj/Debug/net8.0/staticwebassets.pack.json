@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\img\\3515db66-77e6-4fbc-b468-d85c8f12d8c2.png"
     },
     {
+      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\4f3ac580-c4b1-4955-b3e8-3faf5169ce7d.jpg",
+      "PackagePath": "staticwebassets\\img\\4f3ac580-c4b1-4955-b3e8-3faf5169ce7d.jpg"
+    },
+    {
       "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\85d58754-f4d8-4022-bc64-20dd2dce438a.jpg",
       "PackagePath": "staticwebassets\\img\\85d58754-f4d8-4022-bc64-20dd2dce438a.jpg"
     },
@@ -27,6 +31,10 @@
     {
       "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\Price.png",
       "PackagePath": "staticwebassets\\img\\Price.png"
+    },
+    {
+      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\a0a29337-f436-4630-a1c6-5acfef236f68.jpg",
+      "PackagePath": "staticwebassets\\img\\a0a29337-f436-4630-a1c6-5acfef236f68.jpg"
     },
     {
       "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\allOrders.png",
@@ -83,6 +91,10 @@
     {
       "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\up.png",
       "PackagePath": "staticwebassets\\img\\up.png"
+    },
+    {
+      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\js\\changeImg.js",
+      "PackagePath": "staticwebassets\\js\\changeImg.js"
     },
     {
       "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\js\\layout.js",

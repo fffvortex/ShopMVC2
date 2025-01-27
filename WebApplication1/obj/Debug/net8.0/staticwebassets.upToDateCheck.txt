@@ -1,7 +1,9 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\img\3515db66-77e6-4fbc-b468-d85c8f12d8c2.png
+wwwroot\img\4f3ac580-c4b1-4955-b3e8-3faf5169ce7d.jpg
 wwwroot\img\85d58754-f4d8-4022-bc64-20dd2dce438a.jpg
+wwwroot\img\a0a29337-f436-4630-a1c6-5acfef236f68.jpg
 wwwroot\img\allOrders.png
 wwwroot\img\b789da98-bfc0-4d23-98d1-42e5ea0f83e8.jpg
 wwwroot\img\cod.png
@@ -18,6 +20,7 @@ wwwroot\img\online.png
 wwwroot\img\Price.png
 wwwroot\img\topdark.jpg
 wwwroot\img\up.png
+wwwroot\js\changeImg.js
 wwwroot\js\layout.js
 wwwroot\js\search.js
 wwwroot\js\site.js

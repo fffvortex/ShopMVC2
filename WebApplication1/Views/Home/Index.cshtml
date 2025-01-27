@@ -22,19 +22,10 @@
             else
             {
                 <a href="@Url.Action("IndexSingle","Home", new {id = product.Id})">
-                    <img src="/img/@product.ProductImage" class="card-img-top" alt="@product.ProductTitle">
-                    @if (product.Quantity > 0)
-                    {
-                        <span class="badge text-bg-warning badge-quantity">
-                            @product.Quantity
-                        </span>
-                    }
-                    else
-                    {
-                        <span class="badge text-bg-danger badge-quantity">
-                            @product.Quantity
-                        </span>
-                    }
+                    <img style="height: 19rem;" src="/img/@product.ProductImage" class="card-img-top" alt="@product.ProductTitle">
+                    <span class="badge text-bg-warning badge-quantity">
+                        @product.Quantity
+                    </span>
                 </a>
             }
             <div class="card-body">
@@ -44,17 +35,15 @@
                 @if (product.Quantity > 0)
                 {
                     <button id="add-to-card-@product.Id" onclick="add(@product.Id)" type="button" class="btn btn-success align-content-center add-to-card">Add to cart</button>
-                    
+
                     <script defer type="text/javascript">
-                                                async function SetAllBtnCards(productId) {
+                            async function SetAllBtnCards(productId) {
                             const index = document.getElementById(`add-to-card-${productId}`)
 
                             var quantityInCartRes = await fetch(`/Cart/GetProductQuantityInCartByProductId?productId=${productId}`)
                             var quantityRes = await fetch(`/Stock/GetQuantityInStockByProductId?productId=${productId}`)
                             quantityInStock = await quantityRes.json()
                             quantityInCart = await quantityInCartRes.json()
-
-                            
                             if (quantityInCart === 0) {
                                 return;
                             }

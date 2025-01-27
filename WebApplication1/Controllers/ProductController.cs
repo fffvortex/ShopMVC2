@@ -1,9 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using ShopMVC2.Models;
 using ShopMVC2.Shared;
-using System.Numerics;
 
 namespace ShopMVC2.Controllers
 {
@@ -76,7 +74,8 @@ namespace ShopMVC2.Controllers
                     ProductImage = productToAdd.ProductImage,
                     Description = productToAdd.Description,
                     Price = productToAdd.Price,
-                    ProductTypeId = productToAdd.ProductTypeId
+                    ProductTypeId = productToAdd.ProductTypeId,
+                    Quantity = productToAdd.Quantity,
                 };
                 await _productRepository.AddProduct(product);
                 TempData["successMessage"] = "Product is added successfully";
@@ -156,7 +155,6 @@ namespace ShopMVC2.Controllers
                     oldImage = productToUpdate.ProductImage;
                     productToUpdate.ProductImage = imageName;
                 }
-
                 Product product = new()
                 {
                     Id = productToUpdate.Id,

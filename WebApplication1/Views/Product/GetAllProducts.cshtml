@@ -8,8 +8,7 @@
 {
     <table class="table table-striped table-responsive my-2">
         <tr>
-            <th>Image</th>
-            <th>Product | Type | Price</th>
+            <th>Product</th>
             <th>Description</th>
             <th>Actions</th>
         </tr>
@@ -29,16 +28,31 @@
                             <img style="width: 80px;" src="/img/@product.ProductImage" alt="@product.ProductTitle">
                         </a>
                     }
+                    @product.ProductTitle 
+                    <br />
+                    Id: @product.Id
+                    <br />
+                    @product.Price £
                 </td>
-                <td>
-                    @product.ProductTitle | @product.Id | @product.Price
-                </td>
-                <td style="font-size: small;">
+                <td style="height:4.7rem;word-break: break-all; font-size: 11px;">
                     @product.Description
                 </td>
                 <td>
                     <a class="btn btn-sm btn-outline-success" asp-action="UpdateProduct" asp-controller="Product" asp-route-id="@product.Id">Edit</a>
-                    <a class="btn btn-sm btn-outline-danger" asp-action="DeleteProduct" asp-controller="Product" asp-route-id="@product.Id" onclick="window.confirm('Are you sure?')">Delete</a>
+                    <a data-bs-toggle="modal" data-bs-target="#exampleModal-@product.Id" class="btn btn-sm btn-outline-danger">Delete</a>
+                    <div class="modal fade" id="exampleModal-@product.Id" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 style="margin-inline: auto;" class="modal-title fs-5" id="exampleModalLabel">Are you sure want to delete @product.ProductTitle?</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-footer">
+                                    <a class="btn btn-sm btn-outline-danger" asp-action="DeleteProduct" asp-controller="Product" asp-route-id="@product.Id">Delete</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </td>
             </tr>
         }

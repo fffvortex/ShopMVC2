@@ -44,7 +44,26 @@
                 {
                     <button id="add-to-card-@Model.Id" onclick="add(@Model.Id)" type="button" class=" add-to-card btn btn-success align-content-center">Add to cart</button>
                     <script type="text/javascript">
+                        async function SetAllBtnCards(productId) {
+                            const index = document.getElementById(`add-to-card-${productId}`)
 
+                            var quantityInCartRes = await fetch(`/Cart/GetProductQuantityInCartByProductId?productId=${productId}`)
+                            var quantityRes = await fetch(`/Stock/GetQuantityInStockByProductId?productId=${productId}`)
+                            quantityInStock = await quantityRes.json()
+                            quantityInCart = await quantityInCartRes.json()
+
+
+                            if (quantityInCart === 0) {
+                                return;
+                            }
+                            else{
+
+                                index.classList.remove('btn-success')
+                                index.classList.add('btn-outline-success')
+                                index.innerHTML = `${quantityInCart} in cart`
+                            }
+                        }
+                        SetAllBtnCards(@Model.Id)
                     </script>
                 }
                 else
@@ -59,7 +78,6 @@
     </div>
 </div>
 <br />
-
 <div>
     
 </div>
