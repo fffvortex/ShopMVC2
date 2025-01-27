@@ -13,8 +13,12 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\6009d6ff-0b85-432c-bbb7-825d74867614.jpg",
-      "PackagePath": "staticwebassets\\img\\6009d6ff-0b85-432c-bbb7-825d74867614.jpg"
+      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\3515db66-77e6-4fbc-b468-d85c8f12d8c2.png",
+      "PackagePath": "staticwebassets\\img\\3515db66-77e6-4fbc-b468-d85c8f12d8c2.png"
+    },
+    {
+      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\85d58754-f4d8-4022-bc64-20dd2dce438a.jpg",
+      "PackagePath": "staticwebassets\\img\\85d58754-f4d8-4022-bc64-20dd2dce438a.jpg"
     },
     {
       "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\No_Picture.jpg",
@@ -29,12 +33,12 @@
       "PackagePath": "staticwebassets\\img\\allOrders.png"
     },
     {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\cod.png",
-      "PackagePath": "staticwebassets\\img\\cod.png"
+      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\b789da98-bfc0-4d23-98d1-42e5ea0f83e8.jpg",
+      "PackagePath": "staticwebassets\\img\\b789da98-bfc0-4d23-98d1-42e5ea0f83e8.jpg"
     },
     {
-      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\d6f38b3f-1419-4c09-9dfd-e43f06c24be9.webp",
-      "PackagePath": "staticwebassets\\img\\d6f38b3f-1419-4c09-9dfd-e43f06c24be9.webp"
+      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\cod.png",
+      "PackagePath": "staticwebassets\\img\\cod.png"
     },
     {
       "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\down.png",
@@ -43,6 +47,14 @@
     {
       "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\empty-cart.png",
       "PackagePath": "staticwebassets\\img\\empty-cart.png"
+    },
+    {
+      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\header-dark.jpg",
+      "PackagePath": "staticwebassets\\img\\header-dark.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\header-light.jpg",
+      "PackagePath": "staticwebassets\\img\\header-light.jpg"
     },
     {
       "Id": "C:\\Users\\mi162\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\img\\header.jpg",

@@ -44,7 +44,7 @@
                 @if (product.Quantity > 0)
                 {
                     <button id="add-to-card-@product.Id" onclick="add(@product.Id)" type="button" class="btn btn-success align-content-center add-to-card">Add to cart</button>
-                    @* баг *@
+                    
                     <script defer type="text/javascript">
                                                 async function SetAllBtnCards(productId) {
                             const index = document.getElementById(`add-to-card-${productId}`)
@@ -54,19 +54,15 @@
                             quantityInStock = await quantityRes.json()
                             quantityInCart = await quantityInCartRes.json()
 
-                            if (Number(quantityInCart) === Number(quantityInStock)) {
-                                index.classList.remove('btn-success')
-                                index.classList.add('btn-outline-success')
-                                index.innerHTML = `All in cart`
-                            }
-                            else if (quantityInCart === 0) {
+                            
+                            if (quantityInCart === 0) {
                                 return;
                             }
                             else{
 
                                 index.classList.remove('btn-success')
                                 index.classList.add('btn-outline-success')
-                                index.innerHTML = `Added ${quantityInCart} of ${quantityInStock}`
+                                index.innerHTML = `${quantityInCart} in cart`
                             }
                         }
                         SetAllBtnCards(@product.Id)

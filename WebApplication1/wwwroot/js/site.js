@@ -35,39 +35,16 @@
 }
 
 async function SetBtnCard(el, quantityInCart, quantityInStock) {
-    if (quantityInCart+1 === quantityInStock) {
+    
+    if (quantityInCart < quantityInStock) {
         el.classList.remove('btn-success')
         el.classList.add('btn-outline-success')
-        el.innerHTML = `All in cart`
+        el.innerHTML = `${quantityInCart + 1} in cart`
     }
-    else if (quantityInCart < quantityInStock) {
-        el.classList.remove('btn-success')
-        el.classList.add('btn-outline-success')
-        el.innerHTML = `Added ${quantityInCart + 1} of ${quantityInStock}`
-    }
-}
+    else {
 
-//bag
-async function SetAllBtnCards(productId) {
-    const index = document.getElementById(`add-to-card-${productId}`)
-
-    var quantityInCartRes = await fetch(`/Cart/GetProductQuantityInCartByProductId?productId=${productId}`) 
-    var quantityRes = await fetch(`/Stock/GetQuantityInStockByProductId?productId=${productId}`)
-    quantityInStock = await quantityRes.json()
-    quantityInCart = await quantityInCartRes.json()
-
-    if (Number(quantityInCart) === Number(quantityInStock)) {
         index.classList.remove('btn-success')
         index.classList.add('btn-outline-success')
-        index.innerHTML = `All in cart`
-    }
-    else if (quantityInCart === 0) {
-        return;
-    }
-    else{
-        
-        index.classList.remove('btn-success')
-        index.classList.add('btn-outline-success')
-        index.innerHTML = `Added ${quantityInCart} of ${quantityInStock}`
+        index.innerHTML = `${quantityInCart} in cart`
     }
 }

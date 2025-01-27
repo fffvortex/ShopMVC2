@@ -198,11 +198,11 @@ select{
     justify-content: space-between;
 }
 .top-light {
-    background-image: url(../img/toplight.jpg);
+    background-image: url(../img/header-light.jpg);
     background-size: cover;
 }
 .top-dark {
-    background-image: url(../img/topdark.jpg);
+    background-image: url(../img/header-dark.jpg);
     background-size: cover;
 }
 .modal-backdrop {
@@ -242,6 +242,10 @@ main{
     -webkit-box-shadow: 0px 0px 12px 10px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 0px 0px 12px 10px rgba(0, 0, 0, 0.5);
     box-shadow: 0px 0px 12px 10px rgba(0, 0, 0, 0.5);
+}
+.btn:focus, .btn:active {
+    outline: none !important;
+    box-shadow: none !important;
 }
 @media(max-width: 538px) {
     .table-orders{

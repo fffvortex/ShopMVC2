@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using WebApplication1.Areas.Identity.Data;
 
 namespace ShopMVC2.Repositories
 {
@@ -28,7 +29,7 @@ namespace ShopMVC2.Repositories
                                   on product.ProductTypeId equals type.Id
                                   join stock in _context.Stocks
                                   on product.Id equals stock.ProductId
-                                  into product_stock 
+                                  into product_stock
                                   from productWithStock in product_stock.DefaultIfEmpty()
                                   where string.IsNullOrEmpty(search) || (product != null && product.ProductTitle.ToLower().Replace(" ", "").Contains(search))
                                   select new Product
@@ -61,7 +62,7 @@ namespace ShopMVC2.Repositories
         public async Task<Product> GetProductById(int id)
         {
             var productById = await (from product in _context.Products
-                                     join types in _context.ProductTypes 
+                                     join types in _context.ProductTypes
                                      on product.ProductTypeId equals types.Id
                                      join stock in _context.Stocks
                                      on product.Id equals stock.ProductId

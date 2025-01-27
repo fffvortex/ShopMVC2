@@ -13,6 +13,15 @@ namespace ShopMVC2.Repositories
         {
             _context.Products.Add(product);
             await _context.SaveChangesAsync();
+            var existingProduct = await _context.Products.Where(p => p.Id == product.Id)
+                .FirstOrDefaultAsync();
+            var stock = new Stock
+            {
+                ProductId = existingProduct.Id,
+                Quantity = 0
+            };
+            await _context.Stocks.AddAsync(stock);
+            await _context.SaveChangesAsync();
         }
 
         public async Task UpdateProduct(Product product)

@@ -1,12 +1,15 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
-wwwroot\img\6009d6ff-0b85-432c-bbb7-825d74867614.jpg
+wwwroot\img\3515db66-77e6-4fbc-b468-d85c8f12d8c2.png
+wwwroot\img\85d58754-f4d8-4022-bc64-20dd2dce438a.jpg
 wwwroot\img\allOrders.png
+wwwroot\img\b789da98-bfc0-4d23-98d1-42e5ea0f83e8.jpg
 wwwroot\img\cod.png
-wwwroot\img\d6f38b3f-1419-4c09-9dfd-e43f06c24be9.webp
 wwwroot\img\down.png
 wwwroot\img\empty-cart.png
 wwwroot\img\header.jpg
+wwwroot\img\header-dark.jpg
+wwwroot\img\header-light.jpg
 wwwroot\img\icons8-flower-64.png
 wwwroot\img\icons8-purchase-order-48.png
 wwwroot\img\icons8-shop-48.png

@@ -25,7 +25,7 @@ namespace WebApplication1.Controllers
                 Search = search,
                 MaxPrice = maxPrice,
                 MinPrice = minPrice,
-                MaxPriceOfAllProducts=maxPriceOfAllProducts
+                MaxPriceOfAllProducts = maxPriceOfAllProducts
             };
             return View(productModel);
         }
