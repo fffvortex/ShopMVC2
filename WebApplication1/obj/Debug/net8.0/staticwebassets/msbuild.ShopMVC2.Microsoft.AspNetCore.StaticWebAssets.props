@@ -144,6 +144,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\7059f79c-fb8f-4bf9-9c00-c4846335fc26.webp'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\7b5b57d5-b7de-4c49-b11e-ca48cfde1812.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ShopMVC2</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ShopMVC2</BasePath>
+      <RelativePath>img/7b5b57d5-b7de-4c49-b11e-ca48cfde1812.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>4ts6if5hrn</Fingerprint>
+      <Integrity>WFVmrpzwVmt56YD5oFbNzLrq8KInfdEc32dwN8DpHU0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\7b5b57d5-b7de-4c49-b11e-ca48cfde1812.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\7da68534-79a5-4874-a971-7e753844c989.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ShopMVC2</SourceId>
@@ -588,8 +606,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>4dx7w5kben</Fingerprint>
-      <Integrity>WAedpPAArzX0B3+gqhJKVQXdLr1WIHA/sl2G7YSUiVM=</Integrity>
+      <Fingerprint>aiq9jcrm74</Fingerprint>
+      <Integrity>csFEUseBly4hcT8GZw20JqvcdXbgGRklX+iaFYVgXnQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</OriginalItemSpec>

@@ -15,7 +15,7 @@ namespace ShopMVC2.Controllers
         {
             var cartCount = await _cartRepository.AddProduct(productId, quantity);
 
-            if(redirect == 0)
+            if (redirect == 0)
             {
                 return Ok(cartCount);
             }
@@ -67,7 +67,7 @@ namespace ShopMVC2.Controllers
             return View();
         }
 
-        public async Task<int> GetProductQuantityInCartByProductId(int productId)
+        public async Task<int> GetProductQuantityInCart(int productId)
         {
             return await _cartRepository.GetProductQuantityInCartByProductId(productId);
         }

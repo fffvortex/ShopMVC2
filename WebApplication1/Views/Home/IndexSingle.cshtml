@@ -21,7 +21,7 @@
             <h4 style="text-align:center;">@Model.ProductTypeTitle</h4>
             <div style="border-top: solid 1px gray; width:80%; margin-inline:auto;"></div>
             <br />
-            @if(Model.Quantity > 0)
+            @if (Model.Quantity > 0)
             {
                 <span class="badge text-bg-warning">@Model.Quantity in stock</span>
             }
@@ -40,9 +40,30 @@
                 <div class="price-icon">
                     <h3 style="text-align:center;">@Model.Price £</h3>
                 </div>
-                @if(Model.Quantity > 0)
+                @if (Model.Quantity > 0)
                 {
                     <button id="add-to-card-@Model.Id" onclick="add(@Model.Id)" type="button" class=" add-to-card btn btn-success align-content-center">Add to cart</button>
+                    <script type="text/javascript">
+                        async function SetButton(productId)
+                        {
+                            var userNameEl = document.getElementById('username')
+                            if (userNameEl == null) {
+                                return
+                            }
+                            else
+                            {
+                                var button = document.getElementById(`add-to-card-${productId}`)
+                                var quantityInCartRes = await fetch(`/Cart/GetProductQuantityInCart?productId=${productId}`)
+                                var quantityInCart = await quantityInCartRes.json()
+                                if (quantityInCart > 0) {
+                                    button.innerHTML = `Added ${quantityInCart}`
+                                    button.classList.remove('btn-success')
+                                    button.classList.add('btn-outline-success')
+                                }
+                            }
+                        }
+                        SetButton(@Model.Id)
+                    </script>
                 }
                 else
                 {
@@ -57,7 +78,6 @@
 </div>
 <br />
 <div>
-    
 </div>
 <div class="collapse small-collapse" id="collapseExample">
     <div class="card card-body">

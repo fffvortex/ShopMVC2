@@ -9,12 +9,14 @@ namespace ShopMVC2.Repositories
         private readonly ApplicationDbContext _context;
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly IHttpContextAccessor _httpContextAccessor;
+        private readonly IStockRepository _stockRepository;
 
-        public CartRepository(ApplicationDbContext context, UserManager<ApplicationUser> userManager, IHttpContextAccessor httpContextAccessor)
+        public CartRepository(ApplicationDbContext context, UserManager<ApplicationUser> userManager, IHttpContextAccessor httpContextAccessor, IStockRepository stockRepository)
         {
             _userManager = userManager;
             _context = context;
             _httpContextAccessor = httpContextAccessor;
+            _stockRepository = stockRepository;
         }
         public async Task<int> AddProduct(int productId, int quantity)
         {
@@ -41,9 +43,15 @@ namespace ShopMVC2.Repositories
                 var cartProduct = _context.CartDetails
                     .FirstOrDefault(c => c.ShoppingCartId == cart.Id && c.ProductId == productId);
 
+                var quantityInStock = await _stockRepository.GetQuantityInStockByProductId(productId);
+                var quantityInCart = await GetProductQuantityInCartByProductId(productId);
+
                 if (cartProduct != null)
                 {
-                    cartProduct.Quantity += quantity;
+                    if (quantityInCart < quantityInStock)
+                    {
+                        cartProduct.Quantity += quantity;
+                    }
                 }
                 else
                 {
@@ -120,6 +128,18 @@ namespace ShopMVC2.Repositories
             var count = await _context.CartDetails
                 .Where(cd => cd.ShoppingCartId == shoppingCart.Id && cd.ProductId == productId)
                 .FirstOrDefaultAsync();
+            if (count == null)
+            {
+                var product = await _context.Products.FindAsync(productId);
+                var createdCount = new CartDetail
+                {
+                    ShoppingCartId = shoppingCart.Id,
+                    ProductId = productId,
+                    Quantity = 0,
+                    UnitPrice = product.Price
+                };
+                return createdCount.Quantity;
+            }
             return count == null ? 0 : count.Quantity;
         }
 
@@ -248,5 +268,6 @@ namespace ShopMVC2.Repositories
             ClaimsPrincipal user = _httpContextAccessor.HttpContext.User;
             return _userManager.GetUserId(user);
         }
+
     }
 }

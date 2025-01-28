@@ -35,6 +35,27 @@
                 @if (product.Quantity > 0)
                 {
                     <button id="add-to-card-@product.Id" onclick="add(@product.Id)" type="button" class="btn btn-success align-content-center add-to-card">Add to cart</button>
+                    <script type="text/javascript">
+                        async function SetButton(productId)
+                        {
+                            var userNameEl = document.getElementById('username')
+                            if (userNameEl == null) {
+                                return
+                            }
+                            else
+                            {
+                                var button = document.getElementById(`add-to-card-${productId}`)
+                                var quantityInCartRes = await fetch(`/Cart/GetProductQuantityInCart?productId=${productId}`)
+                                var quantityInCart = await quantityInCartRes.json()
+                                if (quantityInCart > 0) {
+                                    button.innerHTML = `Added ${quantityInCart}`
+                                    button.classList.remove('btn-success')
+                                    button.classList.add('btn-outline-success')
+                                }
+                            }
+                        }
+                        SetButton(@product.Id)
+                    </script>
                 }
                 else
                 {
