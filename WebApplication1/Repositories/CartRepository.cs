@@ -154,7 +154,7 @@ namespace ShopMVC2.Repositories
                 }
                 var cart = await GetCart(userId);
 
-                if(cart == null)
+                if (cart == null)
                 {
                     throw new InvalidOperationException("Invalid cart");
                 }
@@ -162,13 +162,13 @@ namespace ShopMVC2.Repositories
                     .Where(c => c.ShoppingCartId == cart.Id)
                     .ToListAsync();
 
-                if(cartDetail.Count == 0)
+                if (cartDetail.Count == 0)
                 {
                     throw new InvalidOperationException("Cart is empty");
                 }
                 var pendingRecord = await _context.OrderStatuses
                     .FirstOrDefaultAsync(s => s.StatusTitle == "Pending");
-                if(pendingRecord == null)
+                if (pendingRecord == null)
                 {
                     throw new InvalidOperationException("Order status does not have Pending status");
                 }
@@ -199,11 +199,11 @@ namespace ShopMVC2.Repositories
 
                     var stock = await _context.Stocks
                         .FirstOrDefaultAsync(s => s.ProductId == item.ProductId);
-                    if(stock == null)
+                    if (stock == null)
                     {
                         throw new InvalidOperationException("Stock is null");
                     }
-                    if(item.Quantity > stock.Quantity)
+                    if (item.Quantity > stock.Quantity)
                     {
                         throw new InvalidOperationException($"Only {stock.Quantity} item(s) are available in the stock");
                     }

@@ -30,9 +30,23 @@
                     <i style="margin-inline:0.3rem;" class="fa-solid fa-cart-shopping"><span id="cartCount" class="cart-counter">0</span></i>
                 </a>
             </div>
-            <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-                <button id="logout" type="submit" class="nav-link"><i style="color: #1e8a42;margin-right:0.2rem;margin-left: 0.5rem; margin-top:0.1rem;" class="fa-solid fa-right-from-bracket"></i></button>
-            </form>
+            <button data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="nav-link"><i style="color: #1e8a42;margin-right:0.2rem;margin-left: 0.5rem; margin-top:0.1rem;" class="fa-solid fa-right-from-bracket"></i></button>
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Are you sure want to exit</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                                <button class="btn btn-danger" id="logout" type="submit" class="nav-link">Logout</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="nav-item search-logo">
                 <a class="nav-link" asp-controller="Home" asp-action="Index">
                     <i style="margin-inline:0.3rem;" class="fa-solid fa-magnifying-glass"></i>

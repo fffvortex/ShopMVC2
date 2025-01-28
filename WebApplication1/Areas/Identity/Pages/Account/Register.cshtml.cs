@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
+using Microsoft.EntityFrameworkCore;
 using ShopMVC2.Constants;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
@@ -24,13 +25,15 @@ namespace WebApplication1.Areas.Identity.Pages.Account
         private readonly IUserEmailStore<ApplicationUser> _emailStore;
         private readonly ILogger<RegisterModel> _logger;
         private readonly IEmailSender _emailSender;
+        private readonly ApplicationDbContext _context;
 
         public RegisterModel(
             UserManager<ApplicationUser> userManager,
             IUserStore<ApplicationUser> userStore,
             SignInManager<ApplicationUser> signInManager,
             ILogger<RegisterModel> logger,
-            IEmailSender emailSender)
+            IEmailSender emailSender,
+            ApplicationDbContext context)
         {
             _userManager = userManager;
             _userStore = userStore;
@@ -38,6 +41,7 @@ namespace WebApplication1.Areas.Identity.Pages.Account
             _signInManager = signInManager;
             _logger = logger;
             _emailSender = emailSender;
+            _context = context;
         }
 
         /// <summary>
@@ -66,7 +70,7 @@ namespace WebApplication1.Areas.Identity.Pages.Account
         public class InputModel
         {
             [Required]
-            [StringLength(50,ErrorMessage ="Name can not be empty or longer than 50 symbols.")]
+            [StringLength(50, ErrorMessage = "Name can not be empty or longer than 50 symbols.")]
             [DataType(DataType.Text)]
             [Display(Name = "First name")]
             public string FirstName { get; set; }
@@ -121,6 +125,13 @@ namespace WebApplication1.Areas.Identity.Pages.Account
 
                 user.FirstName = Input.FirstName;
                 user.LastName = Input.LastName;
+
+                 var cart = new ShoppingCart
+                {
+                    UserId = user.Id
+                };
+                _context.ShoppingCarts.Add(cart);
+                _context.SaveChanges();
 
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);

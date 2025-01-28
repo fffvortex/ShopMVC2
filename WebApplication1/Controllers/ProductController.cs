@@ -119,7 +119,8 @@ namespace ShopMVC2.Controllers
                 ProductTitle = product.ProductTitle,
                 Description = product.Description,
                 Price = product.Price,
-                ProductTypeId = product.ProductTypeId
+                ProductTypeId = product.ProductTypeId,
+                ProductImage = product.ProductImage
             };
             return View(productToUpdate);
         }
@@ -205,6 +206,7 @@ namespace ShopMVC2.Controllers
                     {
                         _fileService.DeleteFile(product.ProductImage);
                     }
+                    TempData["successMessage"] = $"{product.ProductTitle} has been removed";
                 }
             }
             catch (InvalidOperationException ex)

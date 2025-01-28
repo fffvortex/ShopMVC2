@@ -19,16 +19,16 @@
                     @if (string.IsNullOrWhiteSpace(@product.ProductImage))
                     {
                         <a asp-action="UpdateProduct" asp-controller="Product" asp-route-id="@product.Id">
-                            <img style="width: 80px;" src="/img/No_Picture.jpg" alt="@product.ProductTitle">
+                            <img style="width: 80px; height: 90px; border-radius: 8px;" src="/img/No_Picture.jpg" alt="@product.ProductTitle">
                         </a>
                     }
                     else
                     {
                         <a asp-action="UpdateProduct" asp-controller="Product" asp-route-id="@product.Id">
-                            <img style="width: 80px;" src="/img/@product.ProductImage" alt="@product.ProductTitle">
+                            <img style="width: 80px; height: 90px; border-radius: 8px;" src="/img/@product.ProductImage" alt="@product.ProductTitle">
                         </a>
                     }
-                    @product.ProductTitle 
+                    @product.ProductTitle
                     <br />
                     Id: @product.Id
                     <br />

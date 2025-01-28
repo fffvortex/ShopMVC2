@@ -3,44 +3,42 @@
 <div style="width: 70%; margin-inline: auto;">
     <a class="btn btn-outline-success" asp-action="GetAllProducts" asp-controller="Product">Back</a>
     <form asp-action="UpdateProduct" enctype="multipart/form-data">
-        <input type="hidden" asp-for="Id" />
-        <input type="hidden" asp-for="ProductImage" />
         <div class="my-2">
-            <input class="form-control" type="text" asp-for="ProductTitle" />
+            <input maxlength="44" class="form-control" type="text" asp-for="ProductTitle" placeholder="Title" />
             <span asp-validation-for="ProductTitle" class="text-danger"></span>
         </div>
-
         <div class="my-2">
-            <textarea asp-for="Description" class="form-control"></textarea>
+            <textarea maxlength="2000" rows="8" asp-for="Description" class="form-control" placeholder="Description"></textarea>
             <span asp-validation-for="Description" class="text-danger"></span>
         </div>
 
-        <div class="my-2">
-            <select class="form-control" asp-for="ProductTypeId" asp-items="Model.ProductTypeList">
-                <option value="">Select type</option>
+        <div class="my-2" style="display: flex; justify-content: space-between;">
+            <select style="text-align: center; width: 10rem;" class="form-control" asp-for="ProductTypeId" asp-items="Model.ProductTypeList">
+                <option style="text-align:center" value="">Select type</option>
             </select>
             <span asp-validation-for="ProductTypeId" class="text-danger"></span>
+            <div style="width: 10rem;" class="input-group">
+                <span class="input-group-text">Price</span>
+                <input style="text-align:center" type="number" asp-for="Price" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
         </div>
-
         <div class="my-2">
-            <input class="form-control" type="number" asp-for="Price" />
-            <span asp-validation-for="Price" class="text-danger"></span>
-        </div>
-
-        <div class="my-2">
-            @if (string.IsNullOrWhiteSpace(@Model.ProductImage))
+            <input type="file" oninput="previewImage(this.files[0])" class="form-control my-2" asp-for="ImageFile" />
+            @if (Model.ProductImage == null)
             {
-                <img style="width: 80px;" src="/img/No_Picture.jpg" alt="@Model.ProductTitle">
+                <img id="preview" style="width: 10rem; height: 11rem; border-radius: 10px;" src="/img/No_Picture.jpg" />
             }
             else
             {
-                <img style="width: 80px;" src="/img/@Model.ProductImage" alt="@Model.ProductTitle">
+                <img id="preview" style="width: 10rem; height: 11rem; border-radius: 10px;" src="/img/@Model.ProductImage" />
             }
-            <input type="file" class="form-control" asp-for="ImageFile" />
+            <input type="hidden" asp-for="ProductImage" />
         </div>
-
         <div class="my-2">
             <button type="submit" class="btn btn-success">Update product</button>
         </div>
     </form>
 </div>
+
+<script src="~/js/changeImg.js" asp-append-version="true"></script>
