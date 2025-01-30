@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using WebApplication1.Areas.Identity.Data;
 
 namespace ShopMVC2.Repositories
 {
@@ -11,6 +10,22 @@ namespace ShopMVC2.Repositories
             _context = context;
         }
 
+        public int GetPagesize()
+        {
+            return PageSize;
+        }
+
+        public int PageSize { get; set; } = 8;
+
+        public int GetTotalPages()
+        {
+            var products = _context.Products.ToList();
+            var totalRecords = products.Count();
+            int totalPages = (int)Math.Ceiling(totalRecords / (double)PageSize);
+            return totalPages;
+
+        }
+
         public async Task<double> GetMaxPrice()
         {
             return await _context.Products.MaxAsync(p => p.Price);
@@ -20,7 +35,7 @@ namespace ShopMVC2.Repositories
         {
             return await _context.ProductTypes.ToListAsync();
         }
-        public async Task<IEnumerable<Product>> GetProducts(string search = "", int productTypeId = 0, double maxPrice = 0, double minPrice = 0)
+        public async Task<IEnumerable<Product>> GetProducts(string search = "", int productTypeId = 0, double maxPrice = 0, double minPrice = 0, int currentPage = 1)
         {
             search = search.ToLower().Replace(" ", "");
 
@@ -55,6 +70,12 @@ namespace ShopMVC2.Repositories
             {
                 products = products.Where(p => p.Price >= minPrice).ToList();
             }
+
+            int totalRecords = products.Count();
+            int pageSize = PageSize;
+            int totalPages = (int)Math.Ceiling(totalRecords / (double) pageSize);
+
+            products = products.Skip((currentPage - 1) * pageSize).Take(pageSize).ToList();
 
             return products;
         }

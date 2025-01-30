@@ -15,5 +15,11 @@
         public double MinPrice { get; set; } = 0;
 
         public double MaxPriceOfAllProducts { get; set; } = 0;
+
+        public int PageSize { get; set; }
+
+        public int CurrentPage { get; set; }
+
+        public int TotalPages { get; set; }
     }
 }

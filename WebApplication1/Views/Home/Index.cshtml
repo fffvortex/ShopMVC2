@@ -38,21 +38,21 @@
                     <script type="text/javascript">
                         async function SetButton(productId)
                         {
-                            var userNameEl = document.getElementById('username')
-                            if (userNameEl == null) {
-                                return
-                            }
-                            else
-                            {
-                                var button = document.getElementById(`add-to-card-${productId}`)
-                                var quantityInCartRes = await fetch(`/Cart/GetProductQuantityInCart?productId=${productId}`)
-                                var quantityInCart = await quantityInCartRes.json()
-                                if (quantityInCart > 0) {
-                                    button.innerHTML = `Added ${quantityInCart}`
-                                    button.classList.remove('btn-success')
-                                    button.classList.add('btn-outline-success')
-                                }
-                            }
+                        var userNameEl = document.getElementById('username')
+                        if (userNameEl == null) {
+                        return
+                        }
+                        else
+                        {
+                        var button = document.getElementById(`add-to-card-${productId}`)
+                        var quantityInCartRes = await fetch(`/Cart/GetProductQuantityInCart?productId=${productId}`)
+                        var quantityInCart = await quantityInCartRes.json()
+                        if (quantityInCart > 0) {
+                        button.innerHTML = `Added ${quantityInCart}`
+                        button.classList.remove('btn-success')
+                        button.classList.add('btn-outline-success')
+                        }
+                        }
                         }
                         SetButton(@product.Id)
                     </script>
@@ -64,4 +64,53 @@
             </div>
         </div>
     }
+</div>
+<div style="text-align:center;display: flex; justify-content: center;margin-block: 1rem;">
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            @if (Model.CurrentPage > 1)
+            {
+                <li class="page-item">
+                    <a class="page-link" href="/Home/Index?search=@Model.Search&productTypeId=@Model.ProductTypeId&maxPrice=@Model.MaxPrice&minPrice=@Model.MinPrice&currentPage=@(Model.CurrentPage-1)" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+            }
+            else
+            {
+                <li class="page-item">
+                    <a class="page-link" href="/Home/Index?search=@Model.Search&productTypeId=@Model.ProductTypeId&maxPrice=@Model.MaxPrice&minPrice=@Model.MinPrice&currentPage=@(Model.CurrentPage)" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+            }
+            @for (int i = 1; i <= Model.TotalPages; i++)
+            {
+                if (i == Model.CurrentPage)
+                {
+                    <li class="page-item"><a class="page-link active" href="/Home/Index?search=@Model.Search&productTypeId=@Model.ProductTypeId&maxPrice=@Model.MaxPrice&minPrice=@Model.MinPrice&currentPage=@i">@i</a></li>
+                }
+                else
+                {
+                    <li class="page-item"><a class="page-link" href="/Home/Index?search=@Model.Search&productTypeId=@Model.ProductTypeId&maxPrice=@Model.MaxPrice&minPrice=@Model.MinPrice&currentPage=@i">@i</a></li>
+                }
+            }
+            @if (Model.CurrentPage < Model.TotalPages)
+            {
+                <li class="page-item">
+                    <a class="page-link" href="/Home/Index?search=@Model.Search&productTypeId=@Model.ProductTypeId&maxPrice=@Model.MaxPrice&minPrice=@Model.MinPrice&currentPage=@(Model.CurrentPage+1)" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            }
+            else
+            {
+                <li class="page-item">
+                    <a class="page-link" href="/Home/Index?search=@Model.Search&productTypeId=@Model.ProductTypeId&maxPrice=@Model.MaxPrice&minPrice=@Model.MinPrice&currentPage=@(Model.CurrentPage)" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            }
+        </ul>
+    </nav>
 </div>

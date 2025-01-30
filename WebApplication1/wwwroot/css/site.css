@@ -254,6 +254,7 @@ main{
     width: 10rem;
     margin-inline: auto;
 }
+
 @media(max-width: 538px) {
     .table-orders{
         display: none;
@@ -274,3 +275,15 @@ main{
         font-size: small;
     }
 }
+.page-link:hover {
+    color: white;
+    background-color: #36903e;
+    border-color: #36903e;
+}
+.page-link {
+    color: green;
+}
+    .page-link.active {
+        background-color: #1e8a42;
+        border-color: #1e8a42;
+    }

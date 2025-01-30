@@ -29,7 +29,8 @@ namespace ShopMVC2.Repositories
                                 into product_stock
                                 from productStock in product_stock.DefaultIfEmpty()
                                 where string.IsNullOrWhiteSpace(search) ||
-                                product.ProductTitle.ToLower().Replace(" ", "").Contains(search.ToLower().Replace(" ", ""))
+                                product.ProductTitle.ToLower().Replace(" ", "")
+                                .Contains(search.ToLower().Replace(" ", ""))
                                 select new StockDisplayModel
                                 {
                                     ProductId = product.Id,
