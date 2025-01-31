@@ -1,5 +1,5 @@
 Проект интернет магазина на ASP.NET Core MVC. База данных - PostgreSQL, ORM - EntityFramework, аутентификация - модифицированная(роли, представление) Identity Core, фронтенд - Bootstrap 5.3.3
-Вариант с использованием MsSQL и кастомным фронтендом Css, JavaScript - github.com/fffvortex/ShopMVC
+Вариант с использованием MsSQL и кастомным фронтендом Css, JavaScript - [github.com/fffvortex/ShopMVC](https://github.com/fffvortex/ShopMVC)
 
 Демонстрация - https://youtu.be/WA21thOreFg
 
